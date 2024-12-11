@@ -1,0 +1,1077 @@
+{
+  "projectName": "naverProject",
+  "fileTree": {
+    "type": 0,
+    "name": "naverProject",
+    "children": [
+      {
+        "type": 1,
+        "name": "Framework",
+        "action": 1,
+        "children": [
+          {
+            "type": 11,
+            "name": "afc",
+            "relType": 7,
+            "path": "afc\\"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Library",
+        "action": 2,
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Template",
+        "action": 4,
+        "children": [
+          {
+            "type": 1,
+            "name": "Theme",
+            "children": []
+          },
+          {
+            "type": 4,
+            "name": "naverProjectApp_global.stl",
+            "relType": 1,
+            "path": "Template\\"
+          },
+          {
+            "type": 4,
+            "name": "border.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "background.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Query",
+        "children": []
+      },
+      {
+        "type": 1,
+        "name": "Assets",
+        "children": [
+          {
+            "type": 1,
+            "name": "aside",
+            "children": [
+              {
+                "type": 1,
+                "name": "recommend",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "banner1.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\recommend\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "banner2.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\recommend\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "banner3.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\recommend\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "login",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "logo.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\login\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "sideBanner1",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "pic.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner1\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "sideBanner2",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "pic.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner2\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "weather",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "logo.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\weather\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "sunny.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\weather\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "weather.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\weather\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "stockMarket",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "add.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "asc.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "des.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic1.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "refresh.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "info.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "eq.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\stockMarket\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "sideBanner3",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "Img.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner3\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "icon.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner3\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "profileImg.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner3\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "sideBanner4",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "icon.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "widget",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "cal.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "mobileNaver.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "vibe.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "vibe1.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "vibe2.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "vibe3.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "footer",
+            "children": [
+              {
+                "type": 8,
+                "name": "pic1.png",
+                "relType": 1,
+                "path": "Assets\\footer\\"
+              },
+              {
+                "type": 8,
+                "name": "pic2.png",
+                "relType": 1,
+                "path": "Assets\\footer\\"
+              },
+              {
+                "type": 8,
+                "name": "pic3.png",
+                "relType": 1,
+                "path": "Assets\\footer\\"
+              },
+              {
+                "type": 8,
+                "name": "blackLogo.png",
+                "relType": 1,
+                "path": "Assets\\footer\\"
+              },
+              {
+                "type": 8,
+                "name": "whale.png",
+                "relType": 1,
+                "path": "Assets\\footer\\"
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "section",
+            "children": [
+              {
+                "type": 8,
+                "name": "secsion_AD.png",
+                "relType": 1,
+                "path": "Assets\\section\\"
+              },
+              {
+                "type": 1,
+                "name": "food",
+                "children": [
+                  {
+                    "type": 1,
+                    "name": "food1",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "img1.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food1\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img2.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food1\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img3.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food1\\"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "food2",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "img1.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile1.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img2.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img3.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile2.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile3.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img5.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img6.png",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img7.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img8.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile5.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile6.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile7.png",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile8.png",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food2\\"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 1,
+                    "name": "food3",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "img1.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img2.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img3.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "img4.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile1.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile2.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile3.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "profile4.jpg",
+                        "relType": 1,
+                        "path": "Assets\\section\\food\\food3\\"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "shopping",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "AD.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "basket.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "logo.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "order.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic1.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic10.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic2.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic3.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic4.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic5.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic6.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic7.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic8.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "pic9.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "review.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "shopingMY.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  }
+                ]
+              },
+              {
+                "type": 1,
+                "name": "newsStand",
+                "children": [
+                  {
+                    "type": 8,
+                    "name": "list1.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "list2.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "list3.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "live.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news1.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news10.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news11.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news12.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news13.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news14.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news15.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news16.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news17.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news18.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news19.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news2.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news20.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news21.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news22.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news23.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news24.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news3.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news4.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news5.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news6.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news7.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news8.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "news9.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "thumb1.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "thumb2.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "thumb3.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "header",
+            "children": [
+              {
+                "type": 8,
+                "name": "blog.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "button.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "cafe.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "header_pic1.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "header_pic2.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "mail.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "naver.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "search.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "shortcut2.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "top_menu.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "top_notify.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "top_pay.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "top_shopping.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "top_talk.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "keybord.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "land.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "map.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "webtoon.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "finance.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "news.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "store.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "chzzk.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              },
+              {
+                "type": 8,
+                "name": "shortcut.png",
+                "relType": 1,
+                "path": "Assets\\header\\"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "Source",
+        "children": [
+          {
+            "type": 1,
+            "name": "PageView",
+            "children": [
+              {
+                "type": 2,
+                "name": "naverProject000.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "naverProject000.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "SubView",
+            "children": [
+              {
+                "type": 2,
+                "name": "shopingTab.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "shopingTab.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "mansTab.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "mansTab.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "onePlusTab.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "onePlusTab.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "shopingLiveTab.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "shopingLiveTab.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              }
+            ]
+          },
+          {
+            "type": 1,
+            "name": "WindowView",
+            "children": []
+          },
+          {
+            "type": 2,
+            "name": "MainView.cls",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 3,
+            "name": "MainView.lay",
+            "relType": 1,
+            "path": "Source\\"
+          },
+          {
+            "type": 2,
+            "name": "naverProjectApp.cls",
+            "relType": 1,
+            "path": "Source\\"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.2.9"
+}

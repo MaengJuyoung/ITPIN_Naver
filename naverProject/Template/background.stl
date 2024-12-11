@@ -1,0 +1,7 @@
+{
+  "styleName": "background",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n\tbackground-color: rgba(215, 215, 215, 0.28);\n\tborder-width: 1px;\n\tborder-style: none;\n\tborder-radius: 3px;\n}\n",
+    "backgroundAndBorder": ".backgroundAndBorder\n{\n\t\n\tbackground-color: rgba(215, 215, 215, 0.28);\n\tborder-width: 1px;\n\tborder-style: solid;\n\tborder-radius: 2px;\n\tborder-color: rgba(193, 193, 193, 0.63);\n}\n\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "styleName": "border",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n\tborder-width: 1px;\n\tborder-style: solid;\n\tborder-radius: 2px;\n\tborder-color: rgb(217, 217, 217);\n}\n",
+    "circleBorder": ".circleBorder\n{\n\tborder-width: 1px;\n\tborder-color: rgba(193, 193, 193, 0.63);\n\tborder-style: solid;\n\tborder-radius: 50%;\n}\n\n",
+    "border": ".border\n{\n\tborder-color: rgb(205, 205, 205);\n\tborder-width: 1px;\n\tborder-style: solid;\n\tborder-radius: 8px;\n}\n\n"
+  }
+}

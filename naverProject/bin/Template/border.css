@@ -1,0 +1,27 @@
+
+.edit_here
+{
+	/* TODO:edit here */
+
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius: 2px !important;
+	border-color: rgb(217, 217, 217) !important;
+}
+
+.circleBorder
+{
+	border-width: 1px !important;
+	border-color: rgba(193, 193, 193, 0.63) !important;
+	border-style: solid !important;
+	border-radius: 50% !important;
+}
+
+.border
+{
+	border-color: rgb(205, 205, 205) !important;
+	border-width: 1px !important;
+	border-style: solid !important;
+	border-radius: 8px !important;
+}
+
