@@ -2,6 +2,7 @@
   "styleName": "background",
   "items": {
     "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n\tbackground-color: rgba(215, 215, 215, 0.28);\n\tborder-width: 1px;\n\tborder-style: none;\n\tborder-radius: 3px;\n}\n",
-    "backgroundAndBorder": ".backgroundAndBorder\n{\n\t\n\tbackground-color: rgba(215, 215, 215, 0.28);\n\tborder-width: 1px;\n\tborder-style: solid;\n\tborder-radius: 2px;\n\tborder-color: rgba(193, 193, 193, 0.63);\n}\n\n"
+    "backgroundAndBorder": ".backgroundAndBorder\n{\n\t\n\tbackground-color: rgba(215, 215, 215, 0.28);\n\tborder-width: 1px;\n\tborder-style: solid;\n\tborder-radius: 2px;\n\tborder-color: rgba(193, 193, 193, 0.63);\n}\n\n",
+    "content_area": ".content_area\n{\n\tbackground-color: #fff;\n    background-color: var(--color_block_bg);\n    position: relative;\n    border-radius: 8px;\n    -webkit-box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0, 0, 0, .04);\n    box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0, 0, 0, .04);\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box;\n}\n\n"
   }
 }
