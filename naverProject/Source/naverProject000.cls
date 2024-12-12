@@ -77,3 +77,18 @@ function naverProject000*onALabel4Click(comp, info, e)
 	console.log("쇼핑라이브 실행");
 
 };
+
+// 12. up(top)버튼 클릭 시 
+function naverProject000*onAButton1Click(comp, info, e)
+{
+
+	//TODO:edit here
+	// 스크롤을 맨 위로 이동
+    window.scrollTo({
+        top: 0, // 페이지의 맨 위로 이동
+        behavior: 'smooth' // 부드럽게 스크롤
+    });
+
+    console.log("맨 위로 이동");
+
+};
