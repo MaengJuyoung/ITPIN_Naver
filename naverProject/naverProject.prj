@@ -31,7 +31,16 @@
           {
             "type": 1,
             "name": "Theme",
-            "children": []
+            "children": [
+              {
+                "type": 4,
+                "name": "shadow.stl",
+                "action": 8,
+                "relType": 1,
+                "path": "Template\\Theme\\",
+                "comment": ""
+              }
+            ]
           },
           {
             "type": 4,
@@ -947,6 +956,18 @@
                 "path": "Assets\\header\\"
               }
             ]
+          },
+          {
+            "type": 8,
+            "name": "setting.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "up.png",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },

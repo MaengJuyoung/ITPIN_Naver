@@ -1,0 +1,7 @@
+{
+  "styleName": "shadow",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n",
+    "button_shadow": ".button_shadow\n{\n\tbox-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px 1px;\n}\n\n"
+  }
+}
