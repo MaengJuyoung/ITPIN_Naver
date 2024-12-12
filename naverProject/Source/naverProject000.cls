@@ -92,3 +92,23 @@ function naverProject000*onAButton1Click(comp, info, e)
     console.log("맨 위로 이동");
 
 };
+
+// 7. 시간 새로고침 버튼 클릭 시 
+function naverProject000*onAButton2Click(comp, info, e)
+{
+
+	//TODO:edit here
+	// 현재 시간 가져오기
+    const now = new Date();
+
+    // 날짜와 시간 포맷팅
+    const formattedDateTime = 
+        `${String(now.getMonth() + 1).padStart(2, '0')}.${String(now.getDate()).padStart(2, '0')}. ` +
+        `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+    // timeRefresh 라벨의 텍스트를 업데이트
+    this.timeRefresh.setText(formattedDateTime);
+
+    console.log(`현재 시간: ${formattedDateTime}`);
+
+};
