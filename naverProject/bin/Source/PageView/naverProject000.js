@@ -33,6 +33,22 @@ naverProject000.prototype.onInitDone = function()
 	
 	this.tabview.selectTabById('shopingTab');
 	console.log("브라우저 실행");
+	
+	// 검색창 포커스 및 마우스 이벤트 설정
+	const searchInput = document.getElementById('searchBox');
+	if (searchInput) {
+		// 마우스 오버 시 그림자 효과 추가
+		searchInput.addEventListener('mouseover', () => {
+			searchInput.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+		});
+
+		// 마우스 아웃 시 그림자 효과 제거
+		searchInput.addEventListener('mouseout', () => {
+			searchInput.style.boxShadow = "none";
+		});
+
+		console.log("검색창 이벤트 리스너 추가 완료");
+	}
 
 };
 
@@ -112,3 +128,4 @@ naverProject000.prototype.onAButton2Click = function(comp, info, e)
     console.log(`현재 시간: ${formattedDateTime}`);
 
 };
+
