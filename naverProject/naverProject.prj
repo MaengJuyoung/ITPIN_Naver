@@ -124,6 +124,12 @@
                     "name": "pic.jpg",
                     "relType": 1,
                     "path": "Assets\\aside\\sideBanner1\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "ad.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner1\\"
                   }
                 ]
               },
