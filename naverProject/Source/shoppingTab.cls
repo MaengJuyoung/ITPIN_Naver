@@ -1,8 +1,9 @@
+
 /**
 Constructor
 Do not call Function in Constructor.
 */
-class shopingTab()
+class shoppingTab()
 {
 	super();
 
@@ -12,7 +13,7 @@ class shopingTab()
 extends AView;
 
 
-function shopingTab*init(context, evtListener)
+function shoppingTab*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
@@ -20,7 +21,7 @@ function shopingTab*init(context, evtListener)
 
 };
 
-function shopingTab*onInitDone()
+function shoppingTab*onInitDone()
 {
 	super.onInitDone();
 
@@ -28,7 +29,7 @@ function shopingTab*onInitDone()
 
 };
 
-function shopingTab*onActiveDone(isFirst)
+function shoppingTab*onActiveDone(isFirst)
 {
 	super.onActiveDone(isFirst);
 

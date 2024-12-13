@@ -26,12 +26,12 @@ function naverProject000*onInitDone()
 	super.onInitDone();
 
 	//TODO:edit here
-	this.tabview.addTab('쇼핑', 'Source/SubView/shopingTab.lay', 'shopingTab');
+	this.tabview.addTab('쇼핑', 'Source/SubView/shoppingTab.lay', 'shoppingTab');
 	this.tabview.addTab('맨즈', 'Source/SubView/mansTab.lay', 'mansTab');
 	this.tabview.addTab('원쁠딜', 'Source/SubView/onePlusTab.lay', 'onePlusTab');
 	this.tabview.addTab('쇼핑라이브', 'Source/SubView/shopingLiveTab.lay', 'shopingLiveTab');
 	
-	this.tabview.selectTabById('shopingTab');
+	this.tabview.selectTabById('shoppingTab');
 	console.log("브라우저 실행");
 	
 	// 검색창 포커스 및 마우스 이벤트 설정
@@ -64,7 +64,7 @@ function naverProject000*onALabel1Click(comp, info, e)
 {
 	
 	//TODO:edit here
-	this.tabview.selectTabById('shopingTab');
+	this.tabview.selectTabById('shoppingTab');
 	console.log("쇼핑 탭 실행");
 
 };
