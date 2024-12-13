@@ -283,12 +283,6 @@
                   },
                   {
                     "type": 8,
-                    "name": "vibe1.png",
-                    "relType": 1,
-                    "path": "Assets\\aside\\widget\\"
-                  },
-                  {
-                    "type": 8,
                     "name": "vibe2.png",
                     "relType": 1,
                     "path": "Assets\\aside\\widget\\"
@@ -296,6 +290,12 @@
                   {
                     "type": 8,
                     "name": "vibe3.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\widget\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "vibe1.png",
                     "relType": 1,
                     "path": "Assets\\aside\\widget\\"
                   }
@@ -978,6 +978,12 @@
           {
             "type": 8,
             "name": "up.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "rightBtn.png",
             "relType": 1,
             "path": "Assets\\"
           }
