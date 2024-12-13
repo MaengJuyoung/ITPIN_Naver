@@ -2336,21 +2336,28 @@
                         </div>
                         <div data-base="AView" data-class="info_group" class="AView-Style" style="width: 384px; position: relative; height: 184px; display: flex; padding: 6px 0px; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb;">
                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-right: 0px; margin-left: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 12px;">
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 118px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 118px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;;">
                                     <div data-base="AView" data-class="info_weather" class="AView-Style" style="width: 180px; height: 86px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: center; margin-top: 1px; margin-left: 0px;">
                                         <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 86px; height: 86px; position: relative; left: 0px; top: 0px;">
                                             <img src="Assets/aside/weather/sunny.png" style="width: 80%;">
                                         </button>
-                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 61.92px; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); letter-spacing: -2px; line-height: 48px;">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 61.92px; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); letter-spacing: -2px;">
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; font-size: 38px; font-weight: normal; font-family: &quot;맑은 고딕&quot;; display: block; left: 0px;">5.4˚</label>
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; font-family: &quot;맑은 고딕&quot;; font-weight: bold; display: block; left: 0px; font-size: 13px; word-break: normal; text-align: left;">맑음</label>
                                         </div>
                                     </div>
-                                    <div data-base="AView" data-class="info_temperature" class="AView-Style" style="width: 180px; height: 16px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 16px; line-height: 16px; text-align: center; font-family: &quot;맑은 고딕&quot;;">
+                                    <div data-base="AView" data-class="info_temperature" class="AView-Style" style="width: 180px; height: 16px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 16px; line-height: 16px; text-align: center; font-family: &quot;맑은 고딕&quot;; font-size: 14px;">
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(255, 0, 0);">-2˚</label>
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 5px; margin-right: 5px;">/</label>
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 255);">7˚</label>
                                     </div>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 6px; text-align: center; font-family: &quot;맑은 고딕&quot;; font-size: 13px;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal;">미세</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal; color: rgb(2, 199, 60); padding-left: 2px;">보통</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px; color: rgb(113, 113, 113); padding-left: 2px;">·</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal; padding-left: 2px;">초미세</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal; color: rgb(2, 199, 60); padding-left: 2px;">보통</label>
                                 </div>
                             </div>
                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-top: 12px; margin-right: 0px; margin-left: 24px; background-color: rgba(0, 0, 0, 0);">
