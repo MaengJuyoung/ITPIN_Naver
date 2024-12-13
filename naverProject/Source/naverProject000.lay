@@ -1,4 +1,4 @@
-<div data-base="AView" data-class="naverProject000" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(255, 255, 255); position: relative; overflow: visible; z-index: 0; backface-visibility: hidden; display: block; min-width: 1340px;" data-browser-width="1920" data-browser-height="5000" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ATextField&quot;,&quot;AImage&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;ATabView&quot;]}" data-max-alabel="4" data-max-abutton="2">
+<div data-base="AView" data-class="naverProject000" class="AView-Style" style="left: 0px; top: 0px; width: 100%; height: auto; background-color: rgb(255, 255, 255); position: relative; overflow: visible; z-index: 0; backface-visibility: hidden; display: block; min-width: 1340px; margin-left: 0px; margin-top: 0px;" data-browser-width="1920" data-browser-height="5000" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ATextField&quot;,&quot;AImage&quot;,&quot;ALabel&quot;,&quot;AGridLayout&quot;,&quot;ATabView&quot;]}" data-max-alabel="4" data-max-abutton="2">
     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 1280px; height: 100%; position: relative; flex-direction: column; align-items: center; overflow: visible; left: calc(50% - 639px);" id="naverProject000--상단" data-center-x="true">
         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center; padding: 20px 0px 0px;" class="">
             <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 1280px; height: 60px; left: 0px; top: 0px; position: relative;" id="naverProject000--메뉴">
@@ -951,7 +951,7 @@
                                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: relative; left: 0px; top: 0px; font-family: &quot;맑은 고딕&quot;; font-size: 15px; font-weight: bold; color: rgb(0, 0, 0);">펼쳐보기</button>
                                 </div>
                                 <div style="position: relative; box-sizing: border-box;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 20px; color: rgb(255, 186, 0);">＋</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 20px; color: rgb(255, 186, 0); margin-left: 0px;">＋</label>
                                 </div>
                             </div>
                         </div>
@@ -1790,9 +1790,9 @@
                 </div>
             </div>
         </div>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 2356px; position: relative; background-color: rgba(0, 0, 0, 0); left: calc(50% - 640px);" id="naverProject000--container" data-center-x="true">
-            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 2296px; position: absolute; background-color: rgba(0, 0, 0, 0);" id="naverProject000--root">
-                <div data-base="AView" data-class="left" class="AView-Style" style="width: 830px; height: 2296px; position: relative; left: 0px; top: 0px; float: left; background-color: rgb(255, 255, 255); margin-left: 0px; margin-top: 0px;">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 2356px; position: relative; background-color: rgba(0, 0, 0, 0); left: calc(50% - 640px); margin-bottom: 60px;" id="naverProject000--container" data-center-x="true">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-bottom: 50px; top: 0px;" id="naverProject000--root">
+                <div data-base="AView" data-class="left" class="AView-Style" style="width: 830px; height: auto; position: relative; left: 0px; top: 0px; float: left; background-color: rgb(255, 255, 255);">
                     <div data-base="AView" data-class="left_banner_area" class="AView-Style" style="width: 100%; height: 130px; position: relative; border-radius: 8px; background-color: rgba(0, 0, 0, 0); left: 0px;">
                         <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 120px; left: 0px; top: 0px; position: relative; border-radius: 8px;" src="Assets/section/secsion_AD.png" id="naverProject000--ad_1">
                     </div>
@@ -2024,14 +2024,269 @@
                             </div>
                         </div>
                     </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style content_area" style="width: 830px; height: 1182px; position: relative; margin-top: 16px;" data-style=" content_area" id="naverProject000--recommend">
+                        <div data-base="AView" data-class="content_header" class="AView-Style" style="height: 58px; position: relative; width: 830px; display: flex; padding: 18px 20px 17px; background-color: rgba(0, 0, 0, 0);">
+                            <div data-base="AView" data-class="content_header_tab" class="AView-Style" style="width: 790px; height: 23px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; left: 0px; top: 0px; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">추천·구독</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; left: 0px; top: 0px; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">자동차</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; left: 0px; top: 0px; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">웹툰</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; left: 0px; top: 0px; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">패션뷰티</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; left: 0px; top: 0px; color: rgb(115, 115, 115); font-weight: normal; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(0, 0, 0); font-size: 15px; font-weight: normal;">푸드</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">리빙</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; left: 0px; top: 0px; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">책방</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; left: 0px; top: 0px; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">지식+</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; left: 0px; top: 0px; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">건강</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal; left: 0px; top: 0px; margin: 0px 10px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 23px; position: relative; color: rgb(115, 115, 115); font-size: 15px; font-weight: normal;">게임</label>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="feed_area" class="AView-Style" style="width: 830px; height: 1066px; position: relative; padding: 0px 20px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">
+                            <div data-base="AView" data-class="feed_box1" class="AView-Style" style="width: 790px; height: 266px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;;">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; height: 242px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                    <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 250px; height: 144px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food1/img1.jpg&quot;); background-size: 100% 100%; margin-bottom: 10px;" data-background-option="stretch" data-style=" content_area"></button>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; left: 0px; top: 0px; color: rgb(235, 170, 0); font-size: 15px; margin-bottom: 4px; font-weight: bold;">레시피 집중탐구</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 15px; margin-bottom: 4px; font-weight: bold;">가지 떡꼬치</label>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; position: relative; height: 40px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; line-height: 20px; font-size: 13px;">맵지 않고 달달해서</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; left: 0px; top: 0px; line-height: 20px; font-size: 13px;">소스부터 아이들 취향 저격</label>
+                                    </div>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; height: 242px; position: relative; left: 0px; top: 0px; float: left; margin-left: 20px; background-color: rgba(0, 0, 0, 0);">
+                                    <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 250px; height: 144px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food1/img2.jpg&quot;); background-size: 100% 100%; margin-bottom: 10px;" data-background-option="stretch" data-style=" border"></button>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; color: rgb(235, 170, 0); font-size: 15px; margin-bottom: 4px; font-weight: bold;">푸드스토리</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; font-size: 15px; font-weight: bold; margin-bottom: 4px;">눈과 입을 즐겁게 하는 꼬막의 계절...</label>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; position: relative; height: 40px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13px; line-height: 20px;">겨울에 맛볼 수 있는 이 맛</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13px; line-height: 20px;">맛집에는 어떤 곳이 있을까?</label>
+                                    </div>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; height: 242px; position: relative; left: 0px; top: 0px; float: left; margin-left: 20px; background-color: rgba(0, 0, 0, 0);">
+                                    <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 250px; height: 144px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food1/img3.jpg&quot;); background-size: 100% 100%; margin-bottom: 10px;" data-background-option="stretch" data-style=" border"></button>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; color: rgb(235, 170, 0); font-size: 15px; font-weight: bold; margin-bottom: 4px;">오늘의 푸드TV</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: 20px; position: relative; font-size: 15px; font-weight: bold; margin-bottom: 4px;">고깃집 부럽지 않은 소고기 차돌 된...</label>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; position: relative; height: 40px; background-color: rgba(0, 0, 0, 0); border-color: rgba(0, 0, 0, 0);">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13px; line-height: 20px;">기름진 소고기를 달달 볶아</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13px; line-height: 20px;">깊고 진한 맛의 밥도둑 완성</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-base="AView" data-class="feed_box2" class="AView-Style" style="width: 790px; height: 489px; position: relative; border-top: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0); margin-top: 0px; left: 0px; top: 0px; padding-top: 12px;">
+                                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 790px; height: 464px; position: relative; margin-left: 0px;">
+                                    <table cellpadding="0" cellspacing="0">
+                                        <colgroup>
+                                            <col>
+                                            <col>
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex;     align-items: center;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img1.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0);">바삭한 배추전 만들기 레시피 양념장 알배추천 배추부침개</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile1.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">꼬마츄츄</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; float: right;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img2.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0); letter-spacing: -1px;">돼지후지 제육볶음 만드는 법 기사식당 제육볶음 고기부위 돼...</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile2.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">푸디레</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex;     align-items: center;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img3.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0);">묵은지 참치김밥 레시피 롤 유부초밥 만들기 도시락 요리</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile3.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">사부작 유주부</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; float: right;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img1.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0);">바삭한 배추전 만들기 레시피 양념장 알배추천 배추부침개</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile1.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">꼬마츄츄</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex;     align-items: center;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img5.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0); letter-spacing: -1px;">간단 김장 깍두기 담그는법 맛있게 설렁탕집 무김치 담그기 레...</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile5.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">봉스</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; float: right;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img6.png&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0);">BLT 샌드위치 만들기 가을 피크닉 소풍 도시락 싸기</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile6.jpg" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">들꽃향기</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex;     align-items: center;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img7.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0); letter-spacing: -1px;">석박지 설렁탕 깍두기 담그기 만드는법 만들기 배연정 황금레...</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile7.png" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">스푼비</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 381px; position: relative; left: 0px; top: 0px; height: 100px; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; float: right;">
+                                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 154px; height: 100px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/food/food2/img8.jpg&quot;); background-size: contain; float: left;" data-background-option="fit" data-style=" border"></button>
+                                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 66px; position: relative; margin-left: 16px; float: left; background-color: rgba(0, 0, 0, 0);">
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 42px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 211px; height: 42px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 14px; color: rgb(0, 0, 0);">치킨스톡사용법 파계란국 만들기 초간단 백종원계란국</label>
+                                                            </div>
+                                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 211px; height: 20px; position: relative; margin-top: 4px; background-color: rgba(0, 0, 0, 0); top: 0px; display: flex;">
+                                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block;     margin: 0 6px 0 0;     vertical-align: top;" src="Assets/section/food/food2/profile8.png" data-style=" circleBorder">
+                                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; height: 20px; margin-top: 2px;">이트샤</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div data-base="AView" data-class="feed_box3" class="AView-Style" style="width: 790px; height: 303px; position: relative; border-top: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 60px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px; text-align: left; left: 0px; top: 0px; letter-spacing: -1px; font-weight: bold; padding: 23px 0px 15px; line-height: 22px;">테마별 레시피</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 242px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 218px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 182.5px; height: 120px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food3/img1.jpg&quot;); background-size: contain;" data-style=" border" data-background-option="fit"></button>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 88px; position: relative; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 20px; position: relative; left: 0px; top: 0px; color: rgb(235, 170, 0); font-size: 14px; font-weight: bold; margin-bottom: 4px;">#오이김치레시피</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 40px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px; color: rgb(0, 0, 0); margin-bottom: 4px; line-height: 20px;">아삭한 오이소박이 만드는 법 오이김치 오이소박이 양...</label>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     line-height: 20px;">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; margin-right: 6px;" src="Assets/section/food/food3/profile1.jpg" data-style=" circleBorder">
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; padding-top: 2px;">반이짝이</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 218px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 20px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 182.5px; height: 120px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food3/img2.jpg&quot;); background-size: contain;" data-style=" border" data-background-option="fit"></button>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 88px; position: relative; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 20px; position: relative; left: 0px; top: 0px; color: rgb(235, 170, 0); font-size: 14px; font-weight: bold; margin-bottom: 4px;">#오이김치레시피</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 40px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px; color: rgb(0, 0, 0); margin-bottom: 4px; line-height: 20px;">부추 오이김치 만드는 법 오이깍두기 담그는법 레시피</label>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     line-height: 20px;">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; margin-right: 6px;" src="Assets/section/food/food3/profile2.jpg" data-style=" circleBorder">
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; padding-top: 2px;">봉스</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 218px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 20px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 182.5px; height: 120px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food3/img3.jpg&quot;); background-size: contain;" data-style=" border" data-background-option="fit"></button>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 88px; position: relative; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 20px; position: relative; left: 0px; top: 0px; color: rgb(235, 170, 0); font-size: 14px; font-weight: bold; margin-bottom: 4px;">#팽이버섯계란전</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 40px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px; color: rgb(0, 0, 0); margin-bottom: 4px; line-height: 20px;">팽이버섯전 팽이버섯 계란전, 가성비 최고 반찬 오늘의...</label>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     line-height: 20px;">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; margin-right: 6px;" src="Assets/section/food/food3/profile3.jpg" data-style=" circleBorder">
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; padding-top: 2px;">엘리맘</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 218px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 20px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 182.5px; height: 120px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/section/food/food3/img4.jpg&quot;); background-size: contain;" data-style=" border" data-background-option="fit"></button>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 182.5px; height: 88px; position: relative; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 20px; position: relative; left: 0px; top: 0px; color: rgb(235, 170, 0); font-size: 14px; font-weight: bold; margin-bottom: 4px;">#토마토스튜레시피</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182px; height: 40px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px; color: rgb(0, 0, 0); margin-bottom: 4px; line-height: 20px;">마녀스프 레시피 다이어트 스프 토마토스튜 만들기</label>
+                                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     line-height: 20px;">
+                                                <img data-base="AImage" data-class="AImage" class="AImage-Style circleBorder" style="width: 20px; height: 20px; position: relative; margin-right: 6px;" src="Assets/section/food/food3/profile4.jpg" data-style=" circleBorder">
+                                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: normal; font-size: 13px; line-height: 20px; padding-top: 2px;">하우매니</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: absolute; font-size: 15px; font-weight: bold; border-width: 1px; border-color: rgb(168, 168, 168); border-style: solid; border-radius: 50%; top: 99px; right: -12px;">＞</button>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="content_more_area" class="AView-Style" style="width: 830px; height: 57px; position: relative; border-top: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0);">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 830px; height: 56px; position: relative; left: 0px; top: 0px; font-weight: bold; font-family: &quot;맑은 고딕&quot;; font-size: 14px; background-color: rgba(0, 0, 0, 0);" data-aftertext="true">펼쳐보기
+                                <img src="Assets/section/food/+.png" style="margin: 0px 5px 5px;">
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div data-base="AView" data-class="right" class="AView-Style" style="width: 420px; height: 2296px; position: relative; left: 0px; top: 0px; float: right; background-color: rgba(205, 205, 205, 0.43);"></div>
+                <div data-base="AView" data-class="right" class="AView-Style" style="width: 420px; height: auto; position: relative; left: 0px; top: 0px; float: right; background-color: rgba(0, 0, 0, 0);">
+                    <div data-base="AView" data-class="login" class="AView-Style content_area" style="width: 420px; height: 164px; position: relative;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 240px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 80px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 172px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="weather" class="AView-Style content_area" style="width: 420px; height: 236px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="stockMarket" class="AView-Style content_area" style="width: 420px; height: 236px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 240px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="widget" class="AView-Style content_area" style="width: 420px; position: relative; margin-top: 16px; height: 516px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 80px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                </div>
                 <div data-base="AView" data-class="settingView" class="AView-Style" style="width: 92px; height: 40px; position: fixed; z-index: 50; right: 24px; bottom: 24px; display: block; background-color: rgba(0, 0, 0, 0);">
                     <button data-base="AButton" data-class="setting_top" class="AButton-Style circleBorder" style="width: 40px; height: 40px; position: relative; left: 0px; top: 0px; border-radius: 50%; background-image: url(&quot;Assets/up.png&quot;); background-size: 50%; background-repeat: no-repeat; background-position: center center; z-index: 51; box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 10px 1px; float: left;" data-style=" circleBorder " data-background-option="custom" data-listener-click="naverProject000:onAButton1Click"></button>
                     <button data-base="AButton" data-class="setting_system" class="AButton-Style circleBorder" style="width: 40px; height: 40px; position: relative; background-image: url(&quot;Assets/setting.png&quot;); background-repeat: no-repeat; background-size: 50%; background-position: center center; margin-left: 0px; margin-top: 0px; z-index: 51; box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 10px 1px; border-radius: 50%; border-style: none; float: right;" data-style=" circleBorder" data-background-option="custom"></button>
                 </div>
             </div>
         </div>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 200px; position: relative; left: 0px;" id="naverProject000--footer"></div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 200px; position: relative; left: 0px; margin-left: 0px;" id="naverProject000--footer"></div>
     </div>
 </div>

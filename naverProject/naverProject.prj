@@ -514,6 +514,12 @@
                         "path": "Assets\\section\\food\\food3\\"
                       }
                     ]
+                  },
+                  {
+                    "type": 8,
+                    "name": "+.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\food\\"
                   }
                 ]
               },
