@@ -1188,7 +1188,7 @@
                                 <div style="position: relative; box-sizing: border-box;" class="">
                                     <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 300px; height: 40px; position: relative; left: 0px; top: 0px; margin-left: 0px; justify-content: flex-end; align-items: center; margin-top: 0px;">
                                         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 5px;" class="">
-                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; font-size: 15px; font-weight: normal;" id="naverProject000--timeRefresh">12.11. 09:27</label>
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; font-size: 15px; font-weight: normal;">12.11. 09:27</label>
                                         </div>
                                         <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
                                             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 40px; position: relative; left: 0px; top: 0px; width: 20px;" data-listener-click="naverProject000:onAButton2Click">
@@ -1684,7 +1684,7 @@
             </div>
         </div>
     </div>
-    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; background-color: rgb(255, 255, 255); left: 0px; top: 0px; overflow: hidden; margin-left: 0px; margin-top: 0px;" id="naverProject000--wrap">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; background-color: rgb(255, 255, 255); left: 0px; top: 4px; overflow: hidden; margin-left: 0px; margin-top: 0px;" id="naverProject000--wrap">
         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 216px; position: relative; background-color: rgba(0, 0, 0, 0); left: calc(50% - 640px); margin-top: 10px;" id="naverProject000--header" data-center-x="true">
             <div data-base="AView" data-class="hader_inner" class="AView-Style" style="width: 100%; height: 200px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" id="naverProject000--topSearchWrap">
                 <button data-base="AButton" data-class="menu_area" class="AButton-Style" style="width: 48px; height: 48px; position: relative; background-image: url(&quot;Assets/header/top_menu.png&quot;); background-repeat: no-repeat; background-color: rgba(0, 0, 0, 0); background-size: 32px; background-position: center center; border-radius: 50%; left: 0px; top: 0px;" id="naverProject000--topAsideArea" data-background-option="custom">
@@ -2335,8 +2335,8 @@
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 250px; height: auto; position: relative; top: 0px; text-align: right; font-weight: normal; font-size: 13px; font-family: &quot;맑은 고딕&quot;; right: 0px;">서울시 당산동4가</label>
                         </div>
                         <div data-base="AView" data-class="info_group" class="AView-Style" style="width: 384px; position: relative; height: 184px; display: flex; padding: 6px 0px; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb;">
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-right: 0px; margin-left: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 12px;">
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 118px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;;">
+                            <div data-base="AView" data-class="info_box" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-right: 0px; margin-left: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 12px;">
+                                <div data-base="AView" data-class="info_detail" class="AView-Style" style="width: 180px; height: 118px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;;">
                                     <div data-base="AView" data-class="info_weather" class="AView-Style" style="width: 180px; height: 86px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: center; margin-top: 1px; margin-left: 0px;">
                                         <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 86px; height: 86px; position: relative; left: 0px; top: 0px;">
                                             <img src="Assets/aside/weather/sunny.png" style="width: 80%;">
@@ -2352,7 +2352,7 @@
                                         <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 255);">7˚</label>
                                     </div>
                                 </div>
-                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 6px; text-align: center; font-family: &quot;맑은 고딕&quot;; font-size: 13px;">
+                                <div data-base="AView" data-class="air" class="AView-Style" style="width: 180px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 6px; text-align: center; font-family: &quot;맑은 고딕&quot;; font-size: 13px;">
                                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal;">미세</label>
                                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal; color: rgb(2, 199, 60); padding-left: 2px;">보통</label>
                                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px; color: rgb(113, 113, 113); padding-left: 2px;">·</label>
@@ -2360,14 +2360,66 @@
                                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: normal; color: rgb(2, 199, 60); padding-left: 2px;">보통</label>
                                 </div>
                             </div>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-top: 12px; margin-right: 0px; margin-left: 24px; background-color: rgba(0, 0, 0, 0);">
+                            <div data-base="AView" data-class="info_box" class="AView-Style" style="width: 180px; height: 145px; position: relative; margin-top: 12px; margin-right: 0px; margin-left: 24px; background-color: rgba(0, 0, 0, 0);">
                                 <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                                     <img src="Assets/aside/weather/weather.png" style="width: 100%;">
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div data-base="AView" data-class="stockMarket" class="AView-Style content_area" style="width: 420px; height: 236px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
+                    <div data-base="AView" data-class="stockMarket" class="AView-Style content_area" style="width: 420px; height: 236px; position: relative; margin-top: 16px; padding: 0 18px;" data-style=" content_area">
+                        <div data-base="AView" data-class="header_group" class="AView-Style" style="width: 384px; height: 52px; position: relative; display: flex; padding: 6px 0px; line-height: 40px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 38px; height: 100%; position: relative; left: 0px; top: 0px; text-align: center; font-size: 15px; color: rgb(0, 0, 0); font-weight: bold; padding-right: 7px; display: inline-block; margin-top: 2px;">증시</label>
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 20px; height: 20px; position: relative; left: 0px; top: 0px; margin-top: 10px; margin-left: -4px;">
+                                <img src="Assets/aside/stockMarket/info.png" style="width: 80%;">
+                            </button>
+                            <div data-base="AView" data-class="header_aside" class="AView-Style" style="width: 330px; height: 40px; position: relative; float: right; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 100%; position: relative; left: 0px; top: 0px; width: 20px; font-family: &quot;맑은 고딕&quot;; float: right;" data-listener-click="naverProject000:onAButton2Click">
+                                    <img src="Assets/aside/stockMarket/refresh.png" style="width: 90%; margin: 0px 5px;">
+                                </button>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 100%; position: relative; left: 0px; top: 0px; font-size: 15px; font-weight: normal; font-family: &quot;맑은 고딕&quot;; float: right;" id="naverProject000--timeRefresh">12.11. 09:27</label>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="into_group" class="AView-Style" style="width: 384px; height: 184px; position: relative; display: flex; padding: 6px 0px; line-height: 40px; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb;">
+                            <div data-base="AView" data-class="info_box" class="AView-Style" style="width: 179.5px; height: 160px; position: relative; margin: 8px 0px 15px; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px;">
+                                    <img src="Assets/aside/stockMarket/pic1.png" style="width: 100%;">
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="info_box" class="AView-Style" style="width: 179.5px; height: 160px; position: relative; margin: 8px 0px 15px 25px; background-color: rgba(0, 0, 0, 0); letter-spacing: -0.4px;">
+                                <div data-base="AView" data-class="link_stock" class="AView-Style" style="width: 179.5px; height: 37px; position: relative; border-bottom: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0); align-content: center;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 15px; color: rgb(0, 0, 0); float: left; letter-spacing: -0.4px;">삼성전자</label>
+                                    <div data-base="AView" data-class="stock_price" class="AView-Style" style="width: auto; height: 37px; position: relative; float: right; left: 0px; top: 0px; font-family: &quot;맑은 고딕&quot;; background-color: rgba(0, 0, 0, 0); line-height: 33px;">
+                                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 12px; height: 12px; position: relative; left: 0px; transform: translate(0px, 2px); margin-right: 2px;" src="Assets/aside/stockMarket/des.png">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 30px; height: 37px; position: relative; left: 0px; top: 0px; font-size: 10px; color: rgb(0, 0, 255); font-weight: normal; margin-right: 2px;">0.93%</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 46px; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px;">53,500</label>
+                                    </div>
+                                </div>
+                                <div data-base="AView" data-class="link_stock" class="AView-Style" style="width: 179.5px; height: 37px; position: relative; border-bottom: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0); align-content: center;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 15px; color: rgb(0, 0, 0); float: left;">루닛</label>
+                                    <div data-base="AView" data-class="stock_price" class="AView-Style" style="width: auto; height: 37px; position: relative; float: right; left: 0px; top: 0px; font-family: &quot;맑은 고딕&quot;; background-color: rgba(0, 0, 0, 0); line-height: 33px;">
+                                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 12px; height: 12px; position: relative; left: 0px; transform: translate(0px, 2px); margin-right: 2px;" src="Assets/aside/stockMarket/asc.png">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 30px; height: 37px; position: relative; left: 0px; top: 0px; font-size: 10px; color: rgb(255, 0, 0); font-weight: normal; margin-right: 2px;">0.64%</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 46px; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px;">78,500</label>
+                                    </div>
+                                </div>
+                                <div data-base="AView" data-class="link_stock" class="AView-Style" style="width: 179.5px; height: 37px; position: relative; border-bottom: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0); align-content: center;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 15px; color: rgb(0, 0, 0); float: left;">동신건설</label>
+                                    <div data-base="AView" data-class="stock_price" class="AView-Style" style="width: auto; height: 37px; position: relative; float: right; left: 0px; top: 0px; font-family: &quot;맑은 고딕&quot;; background-color: rgba(0, 0, 0, 0); line-height: 33px;">
+                                        <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 12px; height: 12px; position: relative; left: 0px; transform: translate(0px, 2px); margin-right: 2px;" src="Assets/aside/stockMarket/eq.png">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 30px; height: 37px; position: relative; left: 0px; top: 0px; font-size: 10px; color: rgb(0, 0, 0); font-weight: normal; margin-right: 2px;">0.00%</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 46px; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 13px;">65,800</label>
+                                    </div>
+                                </div>
+                                <div data-base="AView" data-class="link_stock" class="AView-Style" style="width: 179.5px; height: 37px; position: relative; border-bottom: 1px solid rgb(235, 235, 235); background-color: rgba(0, 0, 0, 0); align-content: center;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 37px; position: relative; left: 0px; top: 0px; font-weight: normal; font-size: 15px; color: rgb(96, 96, 96); float: left;">인기종목 더보기</label>
+                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 12px; height: 12px; position: relative; left: 0px; top: 0px; float: right; margin: 10px;">
+                                        <img src="Assets/aside/stockMarket/add.png" style="width: 100%;">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 240px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
                     <div data-base="AView" data-class="widget" class="AView-Style content_area" style="width: 420px; position: relative; margin-top: 16px; height: 516px;" data-style=" content_area"></div>
                     <div data-base="AView" data-class="banner_area" class="AView-Style content_area" style="width: 420px; height: 80px; position: relative; margin-top: 16px;" data-style=" content_area"></div>
