@@ -1973,7 +1973,25 @@
                                 </table>
                             </div>
                         </div>
-                        <div data-base="AView" data-class="content_paging" class="AView-Style" style="width: 830px; height: 58px; position: relative; padding: 10px 0px 11px; line-height: 34px; text-align: center; cursor: pointer; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb"></div>
+                        <div data-base="AView" data-class="content_paging" class="AView-Style" style="width: 830px; height: 58px; position: relative; padding: 10px 0px 11px; line-height: 34px; text-align: center; cursor: pointer; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb">
+                            <div data-base="AView" data-class="content_view" class="AView-Style" style="width: 98px; height: 57px; position: absolute; right: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0); display: inline-block;">
+                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 48px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; margin-top: 0px; display: block; float: left;" id="">
+                                    <img src="Assets/section/newsStand/list1.png" style="width: 20px;">
+                                </button>
+                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 46px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); float: left;" id="">
+                                    <img src="Assets/section/newsStand/thumb3.png" style="width: 18px;">
+                                </button>
+                            </div>
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-weight: bold; font-size: 15px; border-width: 1px; border-style: solid; border-color: rgb(168, 168, 168); border-radius: 50%; text-align: center; display: inline-block; top: 0px; left: 0px;">＜</button>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; display: inline-block; top: 0.5px; left: 0px; padding: 0px 16px; background-color: rgba(0, 0, 0, 0);">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; color: rgb(0, 0, 255); left: 0px; top: 0px;">언론사</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; left: 0px; top: 0px; padding-right: 4px;">더보기</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">1</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(168, 168, 168); left: 0px; top: 0px;">/</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(168, 168, 168); left: 0px; top: 0px;">4</label>
+                            </div>
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-size: 15px; font-weight: bold; border-width: 1px; border-color: rgb(168, 168, 168); border-style: solid; border-radius: 50%; left: 0px; top: 0px;">＞</button>
+                        </div>
                     </div>
                 </div>
                 <div data-base="AView" data-class="right" class="AView-Style" style="width: 420px; height: 2296px; position: relative; left: 0px; top: 0px; float: right; background-color: rgba(205, 205, 205, 0.43);"></div>
