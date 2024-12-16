@@ -81,6 +81,8 @@ function naverProject000*onMoreButtonClick(comp, info, e)
     isMoreOptionsOpen = !isMoreOptionsOpen;
 };
 
+// 3. 위로 자동 무한(5개)
+
 // 6. tabview 사용
 function naverProject000*onALabelTabClick(comp, info, e) {
     // 클릭된 라벨의 아이디를 가져옴
