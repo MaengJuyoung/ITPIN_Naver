@@ -36,3 +36,15 @@
     outline: none !important; /* 기본 포커스 테두리 제거 */
 }
 
+.service_icon_type_more:active
+{
+	outline: none !important;              /* 클릭 시 테두리 제거 */
+    background: transparent !important;    /* 클릭 시 배경색 제거 */
+}
+
+:active
+{
+	outline: none !important;              /* 클릭 시 테두리 제거 */
+    background: transparent !important;    /* 클릭 시 배경색 제거 */
+}
+

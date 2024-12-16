@@ -35,144 +35,78 @@
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="shortcut_area type_recommend type_ad" class="AView-Style" style="width: 676px; height: 68px; position: relative; margin: 10px auto; left: 0px; background-color: rgba(0, 0, 0, 0); display: block;" id="naverProject000--shortcutArea">
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; left: 0px; top: 0px; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_mail" class="AButton-Style" style="height: 68px; position: relative; width: 100%; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/mail.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 메일
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_cafe" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                            <img src="Assets/header/cafe.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 카페
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_blog" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/blog.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 블로그
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_shopping" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/store.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 스토어
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_news" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/news.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 뉴스
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_stock" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                            <img src="Assets/header/finance.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 증권
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_real" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); background-size: auto; background-repeat: repeat; left: 0px;" data-newline="true" data-background-option="original">
-                            <img src="Assets/header/land.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 부동산
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_map" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                            <img src="Assets/header/map.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 지도
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_webtoon" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/webtoon.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 웹툰
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_chzzk" class="AButton-Style" style="width: 100%; height: 68px; position: relative; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                            <img src="Assets/header/chzzk.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 치지직
-                        </button>
-                    </div>
-                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                        <button data-base="AButton" data-class="service_icon type_more" class="AButton-Style" style="width: 100%; height: 68px; position: relative; color: rgba(0, 0, 0, 0); left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true" data-listener-click="naverProject000:onMoreButtonClick" id="naverProject000--more_button1">
-                            <img src="Assets/header/shortcut.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                            <br> 더보기
-                        </button>
-                    </div>
-                </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 706px; height: 335px; position: absolute; margin: 10px auto; background-color: rgb(255, 255, 255); z-index: 100; padding: 15px 14px 9px 15px; border-radius: 8px; box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 4px 8px 0px;" id="naverProject000--shortcut_group">
-                    <div data-base="AView" data-class="shortcut_area type_recommend type_ad" class="AView-Style" style="width: 676px; height: 68px; position: relative; margin-right: auto; margin-left: auto; left: 0px; background-color: rgba(0, 0, 0, 0);" id="">
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; left: 0px; top: 0px; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_mail" class="AButton-Style" style="height: 68px; position: relative; width: 100%; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/mail.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 메일
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_cafe" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                                <img src="Assets/header/cafe.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 카페
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_blog" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/blog.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 블로그
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_shopping" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/store.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 스토어
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_news" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/news.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 뉴스
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_stock" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                                <img src="Assets/header/finance.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 증권
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_real" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); background-size: auto; background-repeat: repeat; left: 0px;" data-newline="true" data-background-option="original">
-                                <img src="Assets/header/land.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 부동산
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_map" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
-                                <img src="Assets/header/map.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 지도
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_webtoon" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/webtoon.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 웹툰
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_chzzk" class="AButton-Style" style="width: 100%; height: 68px; position: relative; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
-                                <img src="Assets/header/chzzk.png" style="width: 40px; margin: 0px 0px 0px 6px;">
-                                <br> 치지직
-                            </button>
-                        </div>
-                        <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
-                            <button data-base="AButton" data-class="service_icon type_more" class="AButton-Style" style="width: 100%; height: 68px; position: relative; color: rgba(0, 0, 0, 0); left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true" data-listener-click="naverProject000:onMoreButtonClick" id="naverProject000--more_button2">
-                                <img src="Assets/header/shortcut2.png">
-                                <br> 더보기
-                            </button>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 706px; height: 335px; position: absolute; margin: -12px auto 10px; background-color: rgb(255, 255, 255); z-index: 100; padding: 12px 14px 9px 20.5px; border-radius: 8px; box-shadow: rgb(227, 229, 232) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 4px 8px 0px; left: calc((50% - 338.5px) - 20px); overflow: hidden;" id="naverProject000--shortcut_group" data-center-x="true">
+                    <div data-base="AView" data-class="shortcut_area type_recommend type_ad" class="AView-Style" style="width: 676px; height: 68px; position: relative; margin-right: auto; margin-left: auto; left: 0px; background-color: rgba(0, 0, 0, 0); overflow: visible;" id="">
+                        <div data-base="AView" data-class="shortcut_area type_recommend type_ad" class="AView-Style" style="width: 676px; height: 68px; position: relative; margin: 10px auto; left: 0px; background-color: rgba(0, 0, 0, 0); display: block;" id="">
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; left: 0px; top: 0px; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_mail" class="AButton-Style" style="height: 68px; position: relative; width: 100%; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/mail.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 메일
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_cafe" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                                    <img src="Assets/header/cafe.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 카페
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_blog" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/blog.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 블로그
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_shopping" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/store.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 스토어
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_news" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/news.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 뉴스
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_stock" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                                    <img src="Assets/header/finance.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 증권
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_real" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); background-size: auto; background-repeat: repeat; left: 0px;" data-newline="true" data-background-option="original">
+                                    <img src="Assets/header/land.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 부동산
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_map" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                                    <img src="Assets/header/map.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 지도
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_webtoon" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/webtoon.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 웹툰
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon type_chzzk" class="AButton-Style" style="width: 100%; height: 68px; position: relative; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                                    <img src="Assets/header/chzzk.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                                    <br> 치지직
+                                </button>
+                            </div>
+                            <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                                <button data-base="AButton" data-class="service_icon_type_more" class="AButton-Style null" style="width: 100%; height: 68px; position: relative; color: rgba(0, 0, 0, 0); left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true" data-listener-click="naverProject000:onMoreButtonClick" id="" data-style="null">
+                                    <img src="Assets/header/shortcut2.png">
+                                    <br> 더보기
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 706px; height: 240px; position: relative; margin: 12px -14px 0px -15px; padding: 0px 27px 10px; border-radius: 0px 0px 8px 8px; background-color: rgba(0, 0, 0, 0); border-top: 1px solid rgb(235, 235, 235); background-color: #fafbfb;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 706px; height: 240px; position: relative; padding: 0px 27px 10px; border-radius: 0px 0px 8px 8px; border-top: 1px solid rgb(235, 235, 235); background-color: rgb(250, 251, 251); margin: 5px -14px 0px -20px; overflow: hidden;">
                         <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 45px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px; letter-spacing: -1px; font-family: &quot;맑은 고딕&quot;; color: rgb(0, 0, 0); font-weight: bold; left: 0px; top: 0px; display: inline-block; padding: 18px 0px 7px; vertical-align: top; margin-left: -1px;">전체서비스</label>
                             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 10px; height: auto; position: relative; left: 0px; top: 0px; margin-left: 10px; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
@@ -311,6 +245,74 @@
                                 </tbody>
                             </table>
                         </div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="shortcut_area type_recommend type_ad" class="AView-Style" style="width: 676px; height: 68px; position: relative; margin: 10px auto; left: 0px; background-color: rgba(0, 0, 0, 0); display: block;" id="naverProject000--shortcutArea">
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; left: 0px; top: 0px; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_mail" class="AButton-Style" style="height: 68px; position: relative; width: 100%; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/mail.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 메일
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; margin: 0px auto; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_cafe" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                            <img src="Assets/header/cafe.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 카페
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_blog" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/blog.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 블로그
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_shopping" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/store.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 스토어
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_news" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/news.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 뉴스
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_stock" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                            <img src="Assets/header/finance.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 증권
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_real" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); background-size: auto; background-repeat: repeat; left: 0px;" data-newline="true" data-background-option="original">
+                            <img src="Assets/header/land.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 부동산
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_map" class="AButton-Style" style="width: 100%; height: 68px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px;" data-newline="true">
+                            <img src="Assets/header/map.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 지도
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_webtoon" class="AButton-Style" style="width: 100%; height: 68px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/webtoon.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 웹툰
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon type_chzzk" class="AButton-Style" style="width: 100%; height: 68px; position: relative; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0);" data-newline="true">
+                            <img src="Assets/header/chzzk.png" style="width: 40px; margin: 0px 0px 0px 6px;">
+                            <br> 치지직
+                        </button>
+                    </div>
+                    <div data-base="AView" data-class="shortcut_item" class="AView-Style" style="width: 61px; height: 68px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
+                        <button data-base="AButton" data-class="service_icon_type_more" class="AButton-Style service_icon_type_more:active" style="width: 100%; height: 68px; position: relative; color: rgba(0, 0, 0, 0); left: 0px; background-color: rgb(255, 255, 255); margin-left: 0px;" data-newline="true" data-listener-click="naverProject000:onMoreButtonClick" id="naverProject000--more_button1" data-style=" service_icon_type_more:active">
+                            <img src="Assets/header/shortcut.png">
+                            <br> 더보기
+                        </button>
                     </div>
                 </div>
             </div>

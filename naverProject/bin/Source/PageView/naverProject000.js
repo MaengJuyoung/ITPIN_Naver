@@ -22,9 +22,8 @@ naverProject000.prototype.init = function(context, evtListener)
     this.search_input.setFocus();
 	this.search_input.setPlaceholder("검색어를 입력해 주세요.");
 	
-	// 초기 상태 설정: shortcutArea는 보이고 shortcut_group은 숨기기
-	this.shortcut_group.element.style.display = 'none';  // shortcutArea 숨기기
-    this.shortcutArea.element.style.display = 'block'; // shortcutArea 보이기
+	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
+	this.shortcut_group.element.style.display = 'none';
 
 	console.log("this.shortcut_group.element.style.display: "+this.shortcut_group.element.style.display);  // this.shortcutArea가 실제로 어떤 값인지 확인
     console.log("this.shortcutArea.element.style.display: "+this.shortcutArea.element.style.display);  // this.shortcutArea.$ele가 실제로 어떤 값인지 확인
@@ -62,19 +61,20 @@ naverProject000.prototype.onActiveDone = function(isFirst)
 };
 
 // 상태를 저장할 변수 (창이 열렸는지 여부 확인)
-let isMoreOptionsOpen = false;
+let isMoreOptionsOpen = true;
 
 // 2. 더보기 버튼 클릭 시 
 naverProject000.prototype.onMoreButtonClick = function(comp, info, e)
 {
+	console.log("isMoreOptionsOpen : "+isMoreOptionsOpen);
+	const moreButton = e.target;
+	
 	if (isMoreOptionsOpen) {
         // 창이 열려있는 상태에서 클릭하면 창을 닫고 이미지 변경
-        this.shortcutArea.element.style.display = 'none';  // shortcutArea 숨기기
-    	this.shortcut_group.element.style.display = 'block'; // shortcutArea 보이기
+    	this.shortcut_group.element.style.display = 'block'; // shortcut_group 보이기
     } else {
         // 창이 닫혀있는 상태에서 클릭하면 창을 열고 이미지 변경
-		this.shortcut_group.element.style.display = 'none';  // shortcutArea 숨기기
-    	this.shortcutArea.element.style.display = 'block'; // shortcutArea 보이기
+    	this.shortcut_group.element.style.display = 'none'; // shortcut_group 숨기기
     }
 	
 	// 상태를 반전시킴
