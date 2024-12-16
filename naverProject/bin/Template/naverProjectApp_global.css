@@ -31,3 +31,8 @@
 {
 }
 
+.search_input_focus
+{
+    outline: none !important; /* 기본 포커스 테두리 제거 */
+}
+

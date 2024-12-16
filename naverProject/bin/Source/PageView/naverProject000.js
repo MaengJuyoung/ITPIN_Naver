@@ -17,8 +17,10 @@ naverProject000.prototype.init = function(context, evtListener)
 {
 	AView.prototype.init.call(this, context, evtListener);
 
-	//TODO:edit here
-
+	
+	// 1. 페이지 로드 시 검색창에 포커스를 설정
+    this.search_input.setFocus();
+	this.search_input.setPlaceholder("검색어를 입력해 주세요.");
 };
 
 naverProject000.prototype.onInitDone = function()
@@ -29,26 +31,14 @@ naverProject000.prototype.onInitDone = function()
 	this.tabview.addTab('쇼핑', 'Source/SubView/shoppingTab.lay', 'shoppingTab');
 	this.tabview.addTab('맨즈', 'Source/SubView/mansTab.lay', 'mansTab');
 	this.tabview.addTab('원쁠딜', 'Source/SubView/onePlusTab.lay', 'onePlusTab');
-	this.tabview.addTab('쇼핑라이브', 'Source/SubView/shopingLiveTab.lay', 'shopingLiveTab');
+	this.tabview.addTab('쇼핑라이브', 'Source/SubView/shoppingLiveTab.lay', 'shoppingLiveTab');
 	
 	this.tabview.selectTabById('shoppingTab');
 	console.log("브라우저 실행");
 	
-	// 검색창 포커스 및 마우스 이벤트 설정
-	const searchInput = document.getElementById('searchBox');
-	if (searchInput) {
-		// 마우스 오버 시 그림자 효과 추가
-		searchInput.addEventListener('mouseover', () => {
-			searchInput.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
-		});
-
-		// 마우스 아웃 시 그림자 효과 제거
-		searchInput.addEventListener('mouseout', () => {
-			searchInput.style.boxShadow = "none";
-		});
-
-		console.log("검색창 이벤트 리스너 추가 완료");
-	}
+	
+	// 페이지 로드 시에도 현재 시간 설정
+    this.onAButton2Click();  // onAButton2Click 함수 호출하여 시간을 설정
 
 };
 
@@ -60,54 +50,33 @@ naverProject000.prototype.onActiveDone = function(isFirst)
 
 };
 
-naverProject000.prototype.onALabel1Click = function(comp, info, e)
-{
+
+// 6. tabview 사용
+naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
+    // 클릭된 라벨의 아이디를 가져옴
+    const labelId = e.target.id;
+	console.log("labelId : "+labelId);
 	
-	//TODO:edit here
-	this.tabview.selectTabById('shoppingTab');
-	console.log("쇼핑 탭 실행");
+    // tabId를 정의하고, if-else로 선택
+    let tabId = '';
 
-};
+    if (labelId === '_1--shoppingTab') {
+        tabId = 'shoppingTab';
+    } else if (labelId === '_1--mansTab') {
+        tabId = 'mansTab';
+    } else if (labelId === '_1--onePlusTab') {
+        tabId = 'onePlusTab';
+    } else if (labelId === '_1--shoppingLiveTab') {
+        tabId = 'shoppingLiveTab';
+    } else {
+        console.log("알 수 없는 라벨 아이디");
+        return;
+    }
 
-naverProject000.prototype.onALabel2Click = function(comp, info, e)
-{
-
-	//TODO:edit here
-	this.tabview.selectTabById('mansTab');
-	console.log("mans 실행");
-};
-
-naverProject000.prototype.onALabel3Click = function(comp, info, e)
-{
-
-	//TODO:edit here
-	this.tabview.selectTabById('onePlusTab');
-	console.log("원쁠딜 실행");
-};
-
-naverProject000.prototype.onALabel4Click = function(comp, info, e)
-{
-
-	//TODO:edit here
-	this.tabview.selectTabById('shopingLiveTab');
-	console.log("쇼핑라이브 실행");
-
-};
-
-// 12. up(top)버튼 클릭 시 
-naverProject000.prototype.onAButton1Click = function(comp, info, e)
-{
-
-	//TODO:edit here
-	// 스크롤을 맨 위로 이동
-    window.scrollTo({
-        top: 0, // 페이지의 맨 위로 이동
-        behavior: 'smooth' // 부드럽게 스크롤
-    });
-
-    console.log("맨 위로 이동");
-
-};
+    // 해당 tabId에 맞는 탭을 선택
+    this.tabview.selectTabById(tabId);
+    console.log(`${labelId} 탭 실행`);
+}
 
 // 7. 시간 새로고침 버튼 클릭 시 
 naverProject000.prototype.onAButton2Click = function(comp, info, e)
@@ -129,3 +98,17 @@ naverProject000.prototype.onAButton2Click = function(comp, info, e)
 
 };
 
+// 12. up(top)버튼 클릭 시 
+naverProject000.prototype.onAButton1Click = function(comp, info, e)
+{
+
+	//TODO:edit here
+	// 스크롤을 맨 위로 이동
+    window.scrollTo({
+        top: 0, // 페이지의 맨 위로 이동
+        behavior: 'smooth' // 부드럽게 스크롤
+    });
+
+    console.log("맨 위로 이동");
+
+};

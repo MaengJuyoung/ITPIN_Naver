@@ -3,7 +3,7 @@
 Constructor
 Do not call Function in Constructor.
 */
-class shopingLiveTab()
+class shoppingLiveTab()
 {
 	super();
 
@@ -13,7 +13,7 @@ class shopingLiveTab()
 extends AView;
 
 
-function shopingLiveTab*init(context, evtListener)
+function shoppingLiveTab*init(context, evtListener)
 {
 	super.init(context, evtListener);
 
@@ -21,7 +21,7 @@ function shopingLiveTab*init(context, evtListener)
 
 };
 
-function shopingLiveTab*onInitDone()
+function shoppingLiveTab*onInitDone()
 {
 	super.onInitDone();
 
@@ -29,7 +29,7 @@ function shopingLiveTab*onInitDone()
 
 };
 
-function shopingLiveTab*onActiveDone(isFirst)
+function shoppingLiveTab*onActiveDone(isFirst)
 {
 	super.onActiveDone(isFirst);
 
