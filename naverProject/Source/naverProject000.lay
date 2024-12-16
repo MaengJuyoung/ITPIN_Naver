@@ -349,7 +349,7 @@
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 0px; top: 0px; position: relative; font-size: 13px;">연합뉴스</label>
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 0px; top: 0px; position: relative; font-weight: bold; font-size: 13px;">·</label>
                             </div>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 380px; height: 26px; position: relative; float: left;">
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="height: 26px; position: relative; float: left; width: 430px;">
                                 <label data-base="ALabel" data-class="news_box" class="ALabel-Style" style="width: auto; height: 26px; left: 0px; top: 0px; position: relative; font-size: 13px; overflow: hidden;" id="naverProject000--news_box_1">前계엄사령관 "김용현 지시로 경찰청장에 포고령 내용 전파"&nbsp;</label>
                             </div>
                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); float: right;">
