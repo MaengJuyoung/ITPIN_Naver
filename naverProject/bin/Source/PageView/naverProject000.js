@@ -229,6 +229,9 @@ naverProject000.prototype.onAButton2Click = function(comp, info, e)
 
 };
 
+// 8. 왼쪽, 닷 무한 자동(3개)
+
+
 // 12. up(top)버튼 클릭 시 
 naverProject000.prototype.onAButton1Click = function(comp, info, e)
 {

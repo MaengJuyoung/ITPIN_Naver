@@ -272,6 +272,30 @@
                     "name": "img.png",
                     "relType": 1,
                     "path": "Assets\\aside\\sideBanner4\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "icon1.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "icon2.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "icon3.jpg",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img2.png",
+                    "relType": 1,
+                    "path": "Assets\\aside\\sideBanner4\\"
                   }
                 ]
               },

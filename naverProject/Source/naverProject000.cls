@@ -229,6 +229,9 @@ function naverProject000*onAButton2Click(comp, info, e)
 
 };
 
+// 8. 왼쪽, 닷 무한 자동(3개)
+
+
 // 12. up(top)버튼 클릭 시 
 function naverProject000*onAButton1Click(comp, info, e)
 {
