@@ -49,6 +49,9 @@ naverProject000.prototype.onInitDone = function()
 	
 	// 페이지 로드 시에도 현재 시간 설정
     this.onAButton2Click();  // onAButton2Click 함수 호출하여 시간을 설정
+	
+	// 3. 뉴스 롤링 시작
+    this.startNewsRolling();
 
 };
 
@@ -82,6 +85,85 @@ naverProject000.prototype.onMoreButtonClick = function(comp, info, e)
 };
 
 // 3. 위로 자동 무한(5개)
+/*function naverProject000*startNewsRolling() {
+    const newsBox = this.news_box.element; // 뉴스 박스 컨테이너
+    const newsItems = Array.from(newsBox.children); // 라벨들 배열
+    const itemHeight = 26; // 라벨 하나의 높이
+	let currentIndex = 0; // 현재 보여줄 라벨의 인덱스
+
+	// 라벨 롤링 실행
+    setInterval(() => {
+        const currentItem = newsItems[currentIndex]; // 현재 라벨
+        const nextIndex = (currentIndex + 1) % newsItems.length; // 다음 라벨 인덱스
+        const nextItem = newsItems[nextIndex]; // 다음 라벨
+
+		// 1. 현재 라벨 위로 올리기
+		currentItem.style.transition = "transform 0.5s ease";
+        currentItem.style.transform = `translateY(-${itemHeight}px)`;
+		
+		// 2. 다음 라벨 따라 올라오기
+        nextItem.style.transform = `translateY(0px)`;
+
+        // 0.5초 후 라벨을 제자리로 이동
+        setTimeout(() => {
+            currentItem.style.transition = "none"; // 애니메이션 제거
+            currentItem.style.transform = "translateY(0)"; // 원래 위치로 되돌리기
+            newsBox.appendChild(currentItem); // 라벨을 맨 뒤로 이동
+			
+			// 애니메이션 다시 적용
+            setTimeout(() => {
+                currentItem.style.transition = "transform 0.5s ease";
+            }, 50); // transition 제거 후 다시 적용
+        }, 500); // 애니메이션 시간과 동일
+
+        // 다음 라벨 인덱스 설정
+        currentIndex = nextIndex;
+    }, 3000); // 3초마다 실행
+}*/
+naverProject000.prototype.startNewsRolling = function() {
+    const newsBox = this.news_box.element; // 뉴스 박스 컨테이너
+    const newsItems = Array.from(newsBox.children); // 라벨들 배열
+    const itemHeight = 26; // 라벨 하나의 높이
+    let currentIndex = 0; // 현재 보여줄 라벨의 인덱스
+
+    // 라벨 롤링 실행
+    setInterval(() => {
+        const currentItem = newsItems[currentIndex]; // 현재 라벨
+        const nextIndex = (currentIndex + 1) % newsItems.length; // 다음 라벨 인덱스
+        const nextItem = newsItems[nextIndex]; // 다음 라벨
+
+        // 1. 다음 라벨을 translateY(26px)로 화면 아래 위치 설정
+        nextItem.style.transition = "none"; // 처음에는 애니메이션 없이 설정
+        nextItem.style.transform = `translateY(${itemHeight}px)`; // 다음 라벨을 화면 아래로 위치시킴
+
+        // 2. 0.1초 후, 현재 라벨과 다음 라벨을 동시에 애니메이션 시작
+        setTimeout(() => {
+            currentItem.style.transition = "transform 0.5s ease"; // 애니메이션 적용
+            currentItem.style.transform = `translateY(-${itemHeight}px)`; // 현재 라벨을 위로 올리기
+
+            nextItem.style.transition = "transform 0.5s ease"; // 애니메이션 적용
+            nextItem.style.transform = `translateY(0px)`; // 다음 라벨을 화면 위로 올리기
+        }, 300); // 0.6초 지연 후, 애니메이션 시작
+
+        // 3. 0.5초 후 현재 라벨을 맨 뒤로 이동
+        setTimeout(() => {
+            currentItem.style.transition = "none"; // 애니메이션 제거
+            currentItem.style.transform = "translateY(0)"; // 원래 위치로 되돌리기
+            newsBox.appendChild(currentItem); // 라벨을 맨 뒤로 이동
+
+            // 애니메이션 다시 적용
+            setTimeout(() => {
+                currentItem.style.transition = "transform 0.5s ease";
+            }, 50); // transition 제거 후 다시 적용
+        }, 500); // 애니메이션 시간과 동일
+
+        // 다음 라벨 인덱스 설정
+        currentIndex = nextIndex;
+    }, 3000); // 3초마다 실행
+}
+
+
+
 
 // 6. tabview 사용
 naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
