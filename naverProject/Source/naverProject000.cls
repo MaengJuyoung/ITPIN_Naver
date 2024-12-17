@@ -25,10 +25,6 @@ function naverProject000*init(context, evtListener)
 	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
 	this.shortcut_group.element.style.display = 'none';
 
-	console.log("this.shortcut_group.element.style.display: "+this.shortcut_group.element.style.display);  // this.shortcutArea가 실제로 어떤 값인지 확인
-    console.log("this.shortcutArea.element.style.display: "+this.shortcutArea.element.style.display);  // this.shortcutArea.$ele가 실제로 어떤 값인지 확인
-
-
 
 	
 };
@@ -126,7 +122,6 @@ function naverProject000*startNewsRolling() {
         currentIndex = nextIndex;
     }, 3000); // 3초마다 실행
 }
-
 
 
 

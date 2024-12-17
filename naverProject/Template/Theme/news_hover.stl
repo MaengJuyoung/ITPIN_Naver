@@ -1,0 +1,7 @@
+{
+  "styleName": "news_hover",
+  "items": {
+    "edit_here": "\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n",
+    "hover": ".hover\n{\n\tposition: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #2868f2;\n}\n\n"
+  }
+}

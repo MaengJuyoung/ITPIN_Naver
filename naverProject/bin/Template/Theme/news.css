@@ -1,0 +1,17 @@
+
+.news
+{
+	/* TODO:edit here */
+
+}
+
+.news{}
+
+.news:hover .n1{
+	display: block !important;
+}
+
+.n1{
+	display: none !important;
+}
+

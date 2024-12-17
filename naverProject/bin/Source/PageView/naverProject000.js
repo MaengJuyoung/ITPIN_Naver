@@ -25,10 +25,6 @@ naverProject000.prototype.init = function(context, evtListener)
 	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
 	this.shortcut_group.element.style.display = 'none';
 
-	console.log("this.shortcut_group.element.style.display: "+this.shortcut_group.element.style.display);  // this.shortcutArea가 실제로 어떤 값인지 확인
-    console.log("this.shortcutArea.element.style.display: "+this.shortcutArea.element.style.display);  // this.shortcutArea.$ele가 실제로 어떤 값인지 확인
-
-
 
 	
 };
@@ -85,41 +81,6 @@ naverProject000.prototype.onMoreButtonClick = function(comp, info, e)
 };
 
 // 3. 위로 자동 무한(5개)
-/*function naverProject000*startNewsRolling() {
-    const newsBox = this.news_box.element; // 뉴스 박스 컨테이너
-    const newsItems = Array.from(newsBox.children); // 라벨들 배열
-    const itemHeight = 26; // 라벨 하나의 높이
-	let currentIndex = 0; // 현재 보여줄 라벨의 인덱스
-
-	// 라벨 롤링 실행
-    setInterval(() => {
-        const currentItem = newsItems[currentIndex]; // 현재 라벨
-        const nextIndex = (currentIndex + 1) % newsItems.length; // 다음 라벨 인덱스
-        const nextItem = newsItems[nextIndex]; // 다음 라벨
-
-		// 1. 현재 라벨 위로 올리기
-		currentItem.style.transition = "transform 0.5s ease";
-        currentItem.style.transform = `translateY(-${itemHeight}px)`;
-		
-		// 2. 다음 라벨 따라 올라오기
-        nextItem.style.transform = `translateY(0px)`;
-
-        // 0.5초 후 라벨을 제자리로 이동
-        setTimeout(() => {
-            currentItem.style.transition = "none"; // 애니메이션 제거
-            currentItem.style.transform = "translateY(0)"; // 원래 위치로 되돌리기
-            newsBox.appendChild(currentItem); // 라벨을 맨 뒤로 이동
-			
-			// 애니메이션 다시 적용
-            setTimeout(() => {
-                currentItem.style.transition = "transform 0.5s ease";
-            }, 50); // transition 제거 후 다시 적용
-        }, 500); // 애니메이션 시간과 동일
-
-        // 다음 라벨 인덱스 설정
-        currentIndex = nextIndex;
-    }, 3000); // 3초마다 실행
-}*/
 naverProject000.prototype.startNewsRolling = function() {
     const newsBox = this.news_box.element; // 뉴스 박스 컨테이너
     const newsItems = Array.from(newsBox.children); // 라벨들 배열
@@ -161,7 +122,6 @@ naverProject000.prototype.startNewsRolling = function() {
         currentIndex = nextIndex;
     }, 3000); // 3초마다 실행
 }
-
 
 
 

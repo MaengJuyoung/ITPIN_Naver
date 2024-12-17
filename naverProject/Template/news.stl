@@ -1,0 +1,7 @@
+{
+  "styleName": "news",
+  "items": {
+    "news": "\r\n.news\r\n{\r\n\t/* TODO:edit here */\r\n\r\n}\r\n",
+    "edit_here": ".news{}\n\n.news:hover .n1{\n\tdisplay: block;\n}\n\n.n1{\n\tdisplay: none;\n}\n\n"
+  }
+}

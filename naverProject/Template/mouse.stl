@@ -1,0 +1,7 @@
+{
+  "styleName": "mouse",
+  "items": {
+    "news": ".news{}\n\n.news:hover .n1{\n\tdisplay: flex;\n}\n\n.n1{\n\tdisplay: none;\n}\n\n"
+  },
+  "fullPath": "C:\\Users\\IT_98\\Documents\\SpiderGenWorkspace\\naver_mjy\\naverProject\\Template\\mouse.stl"
+}
