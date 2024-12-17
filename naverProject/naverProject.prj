@@ -828,6 +828,30 @@
                     "name": "thumb3.png",
                     "relType": 1,
                     "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "after.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\newsStand\\"
+                  },
+                  {
+                    "type": 1,
+                    "name": "list",
+                    "children": [
+                      {
+                        "type": 8,
+                        "name": "img.png",
+                        "relType": 1,
+                        "path": "Assets\\section\\newsStand\\list\\"
+                      },
+                      {
+                        "type": 8,
+                        "name": "logo.png",
+                        "relType": 1,
+                        "path": "Assets\\section\\newsStand\\list\\"
+                      }
+                    ]
                   }
                 ]
               }

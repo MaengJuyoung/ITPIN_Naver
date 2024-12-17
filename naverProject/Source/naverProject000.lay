@@ -362,8 +362,70 @@
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; left: 0px; top: 0px; position: relative; font-weight: bold; padding-right: 0px; margin-left: 0px; font-size: 13px;">뉴스홈</label>
                             </div>
                         </div>
-                        <div data-base="AView" data-class="media_area" class="AView-Style" style="width: 790px; height: 224px; position: relative; margin: 18px 20px; display: flex; background-color: rgba(0, 0, 0, 0);">
-                            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 790px; height: 230px; left: 0px; top: 0px; position: relative; margin-left: 0px; border-radius: 4px; border-width: 1px; border-color: rgb(205, 205, 205); border-style: solid;" id="naverProject000--news_grid" data-style="">
+                        <div data-base="AView" data-class="media_area" class="AView-Style" style="width: 790px; height: 224px; position: relative; margin: 18px 20px; display: flex; background-color: rgba(0, 0, 0, 0);" id="naverProject000--media_area_list">
+                            <div data-base="AView" data-class="media_option" class="AView-Style" style="width: 150px; height: 224px; position: relative; overflow: hidden auto; margin-right: 20px; background-color: rgba(0, 0, 0, 0); border: 1px solid rgb(235, 235, 235); border-radius: 4px; font-size: 15px; font-family: &quot;맑은 고딕&quot;; letter-spacing: -1px;">
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 131px; height: 50px; position: relative; border-radius: 4px; box-shadow: rgba(58, 103, 234, 0.24) 0px 3px 6px 0px; background-color: rgb(58, 103, 234); padding: 15px 15px 9px 20px; font-size: 15px; font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; color: rgb(255, 255, 255); float: left;">종합/경제</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 15px; height: 20px; position: relative; background-image: url(&quot;Assets/section/newsStand/after.png&quot;); background-size: 10px; background-position: center center; background-repeat: no-repeat; float: right;" data-background-option="custom"></label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">방송/통신</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">It</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">영자지</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">스포츠/연예</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">매거진/전문지</label>
+                                </div>
+                                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 133px; height: 38px; position: relative; background-color: rgba(0, 0, 0, 0);     display: block;     padding: 10px 20px 8px;     font-weight: bold;">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px;">지역</label>
+                                </div>
+                            </div>
+                            <div data-base="AView" data-class="media_news" class="AView-Style" style="width: 620px; height: 224px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                <div data-base="AView" data-class="news_top" class="AView-Style" style="width: 620px; position: relative; height: 20px; display: flex; align-items: center; margin-top: 2px; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                                    <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 76px; height: 20px; position: relative;" src="Assets/section/newsStand/list/logo.png">
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 14px; margin-left: 5px; margin-right: 5px; font-weight: bold; color: rgb(205, 205, 205);">·</label>
+                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; font-family: &quot;맑은 고딕&quot;; font-size: 13px; letter-spacing: -0.4px;">12월 17일 14:45 직접 편집</label>
+                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: 26px; position: relative; min-width: 50px; padding: 0px 5px 0px 7px; margin-left: 8px; border: 1px solid rgba(58, 103, 234, 0.3); border-radius: 13px; color: rgb(58, 103, 234); font-weight: bold;">구독 ＋</button>
+                                </div>
+                                <div data-base="AView" data-class="news_desc" class="AView-Style" style="width: 620px; height: 185px; position: relative; display: flex; margin-top: 14px; background-color: rgba(0, 0, 0, 0);">
+                                    <div data-base="AView" data-class="desc_left" class="AView-Style" style="width: 201px; height: 185px; position: relative; margin-right: 20px; background-color: rgba(0, 0, 0, 0);">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style border" style="width: 201px; height: 134px; position: relative; background-image: url(&quot;Assets/section/newsStand/list/img.png&quot;); background-size: contain;" data-style=" border" data-background-option="fit"></button>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 201px; position: relative; height: 40px; overflow: hidden; margin-top: 10px; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-family: &quot;맑은 고딕&quot;; font-size: 13px;">KB손해보험, CSM과 수익성 모두 잡았다</label>
+                                        </div>
+                                    </div>
+                                    <div data-base="AView" data-class="desc_right" class="AView-Style" style="width: 399px; height: 185px; position: relative; margin-left: 0px; flex: 1 1 0%; background-color: rgba(0, 0, 0, 0);">
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0);">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">쿠쿠홈시스, 매출 늘었지만 렌탈 줄었다</label>
+                                        </div>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 13px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">SK바이오팜의 변신...7분기 적자 → 4분기 흑자</label>
+                                        </div>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 13px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">SGC이앤씨·LT삼보, 해외 수주 급증 눈에 띄네</label>
+                                        </div>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 13px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">AI에 1000억 쓴 크래프톤, 게임 적용 시동</label>
+                                        </div>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 13px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">이문화 삼성화재 대표, '초격차' 1위 지킨다</label>
+                                        </div>
+                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 399px; height: 20px; position: relative; background-color: rgba(0, 0, 0, 0); margin-top: 13px;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 389px; height: 20px; position: relative; font-size: 14px; font-family: &quot;맑은 고딕&quot;;">5년간 5번 대표 교체...호텔롯데, 이번엔 변화올까</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-base="AView" data-class="media_area" class="AView-Style" style="width: 790px; height: 224px; position: relative; margin: 18px 20px; display: flex; background-color: rgba(0, 0, 0, 0);" id="naverProject000--media_area_thumb">
+                            <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 790px; height: auto; left: 0px; top: 0px; position: relative; margin-left: 0px; border-radius: 4px; border-width: 1px; border-color: rgb(205, 205, 205); border-style: solid; overflow: hidden;" id="naverProject000--news_grid" data-style="">
                                 <table cellpadding="0" cellspacing="0" class="">
                                     <colgroup>
                                         <col width="">
@@ -375,7 +437,7 @@
                                     </colgroup>
                                     <tbody>
                                         <tr>
-                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news1.png">
@@ -387,7 +449,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news2.png">
@@ -399,7 +461,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news3.png">
@@ -411,7 +473,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news4.png">
@@ -423,7 +485,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news5.png">
@@ -435,7 +497,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news6.png">
@@ -449,7 +511,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news7.png">
@@ -461,7 +523,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news8.png">
@@ -473,7 +535,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news9.png">
@@ -485,8 +547,8 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
-                                                <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
+                                                <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news10.png">
                                                     </button>
@@ -497,7 +559,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news11.png">
@@ -509,7 +571,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news12.png">
@@ -523,7 +585,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news13.png">
@@ -535,7 +597,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news14.png">
@@ -547,7 +609,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news15.png">
@@ -559,7 +621,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news16.png">
@@ -571,7 +633,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news17.png">
@@ -583,7 +645,7 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-bottom: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
                                                     <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news18.png">
@@ -597,9 +659,9 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); top: 0px;" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news19.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -609,9 +671,9 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
-                                                <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
+                                                <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); overflow: visible;" data-style="news">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news20.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -621,9 +683,9 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td class="" style="border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;">
+                                            <td class="" style="border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news21.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -633,9 +695,9 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news22.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -645,9 +707,9 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 56px; text-align: center;" class="">
+                                            <td style="border-right: 1px solid rgb(205, 205, 205); height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news23.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -657,9 +719,9 @@
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td style="height: 56px; text-align: center;" class="">
+                                            <td style="height: 55px; text-align: center;" class="">
                                                 <div data-base="AView" data-class="news" class="AView-Style news" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-style="news">
-                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-left: 1px; margin-top: 1px; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
+                                                    <button data-base="AButton" data-class="newsButton" class="AButton-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0);" data-style-over="" data-event-propagation="true" data-style=" ">
                                                         <img src="Assets/section/newsStand/news24.png">
                                                     </button>
                                                     <div data-base="AView" data-class="n1" class="AView-Style n1" style="position: absolute; align-items: center; justify-content: center; background-color: rgb(40, 104, 242); color: rgb(255, 255, 255); font-family: &quot;맑은 고딕&quot;; font-size: 14px; letter-spacing: -1px; left: 0px; top: 0px; width: 100%; height: 100%; display: flex;" data-style="n1">
@@ -676,20 +738,20 @@
                         </div>
                         <div data-base="AView" data-class="content_paging" class="AView-Style" style="width: 830px; height: 58px; position: relative; padding: 10px 0px 11px; line-height: 34px; text-align: center; cursor: pointer; background-color: rgba(0, 0, 0, 0); border-top: 1px solid #ebebeb">
                             <div data-base="AView" data-class="content_view" class="AView-Style" style="width: 98px; height: 57px; position: absolute; right: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0); display: inline-block;">
-                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 48px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; margin-top: 0px; display: block; float: left;" id="">
+                                <button data-base="AButton" data-class="toggle" class="AButton-Style" style="width: 48px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; margin-top: 0px; display: block; float: left;" id="naverProject000--listBtn" data-event-propagation="true" data-listener-click="naverProject000:onBtnClick">
                                     <img src="Assets/section/newsStand/list1.png" style="width: 20px;">
                                 </button>
-                                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 46px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); float: left;" id="">
+                                <button data-base="AButton" data-class="toggle" class="AButton-Style" style="width: 46px; height: 56px; position: relative; background-color: rgba(0, 0, 0, 0); float: left;" id="naverProject000--thumbBtn" data-listener-click="naverProject000:onBtnClick">
                                     <img src="Assets/section/newsStand/thumb3.png" style="width: 18px;">
                                 </button>
                             </div>
                             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-weight: bold; font-size: 15px; border-width: 1px; border-style: solid; border-color: rgb(168, 168, 168); border-radius: 50%; text-align: center; display: inline-block; top: 0px; left: 0px;">＜</button>
-                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; display: inline-block; top: 0.5px; left: 0px; padding: 0px 16px; background-color: rgba(0, 0, 0, 0);">
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; color: rgb(0, 0, 255); left: 0px; top: 0px;">언론사</label>
+                            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; display: inline-block; top: 0.5px; left: 0px; padding: 0px 16px; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;; font-size: 13px;">
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; color: rgb(0, 0, 255); left: 0px; top: 0px;" id="naverProject000--media_name">언론사</label>
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; left: 0px; top: 0px; padding-right: 4px;">더보기</label>
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">1</label>
                                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(168, 168, 168); left: 0px; top: 0px;">/</label>
-                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(168, 168, 168); left: 0px; top: 0px;">4</label>
+                                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(168, 168, 168); left: 0px; top: 0px;" id="naverProject000--media_page">4</label>
                             </div>
                             <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-size: 15px; font-weight: bold; border-width: 1px; border-color: rgb(168, 168, 168); border-style: solid; border-radius: 50%; left: 0px; top: 0px;">＞</button>
                         </div>

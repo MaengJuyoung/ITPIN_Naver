@@ -24,6 +24,7 @@ naverProject000.prototype.init = function(context, evtListener)
 	
 	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
 	this.shortcut_group.element.style.display = 'none';
+	this.media_area_list.element.style.display = 'none';
 
 
 	
@@ -121,8 +122,41 @@ naverProject000.prototype.startNewsRolling = function() {
         // 다음 라벨 인덱스 설정
         currentIndex = nextIndex;
     }, 3000); // 3초마다 실행
-}
+};
 
+// 5. 화면변화(표현방법 자유) - 리스트/목록 버튼
+naverProject000.prototype.onBtnClick = function(comp, info, e) {
+    const button = e.target;
+    console.log("e.target : " + e.target);    
+    console.log("e.target.tagName : " + e.target.tagName);
+
+    // 버튼 클릭 시, 버튼이 IMG가 아니면 내부에 있는 IMG를 찾음
+    let imgElement = button.tagName === "IMG" ? button : button.querySelector("img");
+
+    if (imgElement && imgElement.src) {  // 이미지 요소가 있고 src 속성이 존재할 때
+        if (imgElement.src.includes("list")) {  // 리스트 버튼이 클릭된 경우
+            // 리스트 버튼 이미지 변경
+            imgElement.src = 'Assets/section/newsStand/list3.png';  // 이미지 경로 변경
+            this.thumbBtn.setImage('Assets/section/newsStand/thumb1.png');
+            this.thumbBtn.setIconSize('auto 18px');
+            this.media_area_thumb.element.style.display = 'none';
+            this.media_area_list.element.style.display = 'flex';
+			this.media_name.setText('종합/경제 언론사 뉴스');
+			this.media_page.setText('82');
+        } else if (imgElement.src.includes("thumb")) {  // 썸네일 버튼이 클릭된 경우
+            // 썸네일 버튼 이미지 변경
+            imgElement.src = 'Assets/section/newsStand/thumb3.png';  // 이미지 경로 변경
+            this.listBtn.setImage('Assets/section/newsStand/list1.png');
+            this.listBtn.setIconSize('auto 20px');
+            this.media_area_list.element.style.display = 'none';
+            this.media_area_thumb.element.style.display = 'flex';
+			this.media_name.setText('언론사');
+			this.media_page.setText('4');
+        }
+    } else {
+        console.error('이미지 요소를 찾을 수 없습니다.');
+    }
+}
 
 
 // 6. tabview 사용
@@ -150,7 +184,7 @@ naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
     // 해당 tabId에 맞는 탭을 선택
     this.tabview.selectTabById(tabId);
     console.log(`${labelId} 탭 실행`);
-}
+};
 
 // 7. 시간 새로고침 버튼 클릭 시 
 naverProject000.prototype.onAButton2Click = function(comp, info, e)
