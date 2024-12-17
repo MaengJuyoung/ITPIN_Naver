@@ -163,7 +163,7 @@
     </div>
     <div data-base="AView" data-class="Pagination_content_paging" class="AView-Style" style="width: 790px; height: auto; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0); border-top: 1px solid rgb(235, 235, 235); padding: 10px 0px 11px; line-height: 34px; text-align: center;">
         <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-weight: bold; font-size: 15px; border-width: 1px; border-style: solid; border-color: rgb(168, 168, 168); border-radius: 50%; text-align: center; display: inline-block; top: 0px; left: 0px;">＜</button>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; display: inline-block; top: 0.5px; left: 0px; padding: 0px 16px; background-color: rgba(0, 0, 0, 0);">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 185px; height: auto; position: relative; display: inline-block; padding: 0px 16px; background-color: rgba(0, 0, 0, 0); font-size: 13px;">
             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; color: rgb(152, 88, 245); left: 0px; top: 0px;">쇼핑아이템</label>
             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; left: 0px; top: 0px; padding-right: 4px;">더보기</label>
             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">1</label>

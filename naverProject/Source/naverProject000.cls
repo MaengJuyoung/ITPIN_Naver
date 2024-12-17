@@ -170,12 +170,18 @@ function naverProject000*onALabelTabClick(comp, info, e) {
 
     if (labelId === '_1--shoppingTab') {
         tabId = 'shoppingTab';
+		this.tab_page.setText('/ 13');
+		this.tab_pagination.element.style.display = 'block';
     } else if (labelId === '_1--mansTab') {
         tabId = 'mansTab';
+		this.tab_page.setText('/ 7');
+		this.tab_pagination.element.style.display = 'block';
     } else if (labelId === '_1--onePlusTab') {
         tabId = 'onePlusTab';
+		this.tab_pagination.element.style.display = 'none';
     } else if (labelId === '_1--shoppingLiveTab') {
         tabId = 'shoppingLiveTab';
+		this.tab_pagination.element.style.display = 'none';
     } else {
         console.log("알 수 없는 라벨 아이디");
         return;
@@ -184,6 +190,23 @@ function naverProject000*onALabelTabClick(comp, info, e) {
     // 해당 tabId에 맞는 탭을 선택
     this.tabview.selectTabById(tabId);
     console.log(`${labelId} 탭 실행`);
+	
+	// 모든 탭의 라벨을 가져와서 클래스 갱신
+    const allTabLabels = document.querySelectorAll('[data-class="tab-label"]'); // 탭 라벨의 클래스는 'tab-label'로 가정
+
+	const clickedLabel = document.getElementById(labelId); // 클릭된 라벨의 요소
+    if (clickedLabel) {
+        // 모든 라벨에서 select-tab 스타일 클래스를 제거하고, normal-tab 스타일 클래스를 추가
+        allTabLabels.forEach(label => {
+            if (label === clickedLabel) {
+                label.classList.remove('normal-tab');
+                label.classList.add('select-tab');
+            } else {
+                label.classList.remove('select-tab');
+                label.classList.add('normal-tab');
+            }
+        });
+    }
 };
 
 // 7. 시간 새로고침 버튼 클릭 시 

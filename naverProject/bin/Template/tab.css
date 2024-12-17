@@ -1,0 +1,15 @@
+
+/* 비활성(normal tab) 탭 스타일 */
+.normal-tab {
+    color: rgb(115, 115, 115) !important; /* 미선택 탭 색상 */
+    font-weight: normal !important;
+    
+}
+
+/* 활성화된(select tab) 탭 스타일 */
+.select-tab {
+    color: rgb(0, 0, 0) !important; /* 선택된 탭 글자 색 */
+    font-weight: bold !important; /* 굵게 */
+    
+}
+

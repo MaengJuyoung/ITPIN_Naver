@@ -1,0 +1,6 @@
+{
+  "styleName": "tab",
+  "items": {
+    "normal-tab": "/* 비활성(normal tab) 탭 스타일 */\n.normal-tab {\n    color: rgb(115, 115, 115); /* 미선택 탭 색상 */\n    font-weight: normal;\n    \n}\n\n/* 활성화된(select tab) 탭 스타일 */\n.select-tab {\n    color: rgb(0, 0, 0); /* 선택된 탭 글자 색 */\n    font-weight: bold; /* 굵게 */\n    \n}"
+  }
+}
