@@ -177,7 +177,7 @@
                                         <td>
                                             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
                                                 <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: 100%; position: absolute; left: 0px; font-size: 14px; line-height: 18px; top: 0px; display: inline-flex; align-items: center; background-color: rgba(0, 0, 0, 0);">
-                                                    <img src="Assets/header/more/8.PNG" style="margin: 0px 8px 0px 0px;">쇼핑라이브
+                                                    <img src="Assets/header/more/8.PNG" style="margin: 0px 8px 0px 0px; width: 30px;">쇼핑라이브
                                                 </button>
                                             </div>
                                         </td>
