@@ -47,8 +47,11 @@ naverProject000.prototype.onInitDone = function()
 	// 페이지 로드 시에도 현재 시간 설정
     this.onAButton2Click();  // onAButton2Click 함수 호출하여 시간을 설정
 	
-	// 3. 뉴스 롤링 시작
+	// 3. 뉴스 롤링 시작(5개)
     this.startNewsRolling();
+	
+	// 8. 배너 롤링 시작(3개)
+	this.startBannerRolling();
 
 };
 
@@ -230,7 +233,9 @@ naverProject000.prototype.onAButton2Click = function(comp, info, e)
 };
 
 // 8. 왼쪽, 닷 무한 자동(3개)
+naverProject000.prototype.startBannerRolling = function() {
 
+}
 
 // 12. up(top)버튼 클릭 시 
 naverProject000.prototype.onAButton1Click = function(comp, info, e)
