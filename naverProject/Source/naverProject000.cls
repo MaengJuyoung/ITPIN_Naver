@@ -101,14 +101,15 @@ function naverProject000*startNewsRolling() {
         nextItem.style.transition = "none"; // 처음에는 애니메이션 없이 설정
         nextItem.style.transform = `translateY(${itemHeight}px)`; // 다음 라벨을 화면 아래로 위치시킴
 
-        // 2. 0.1초 후, 현재 라벨과 다음 라벨을 동시에 애니메이션 시작
-        setTimeout(() => {
+        // 2. 현재 라벨과 다음 라벨 애니메이션 시작
+        setTimeout(() => { // 현재 라벨 올리기
             currentItem.style.transition = "transform 0.5s ease"; // 애니메이션 적용
             currentItem.style.transform = `translateY(-${itemHeight}px)`; // 현재 라벨을 위로 올리기
-
+        }, 300); // 0.3초 후, 애니메이션 시작
+		setTimeout(() => { // 다음 라벨 올라오기
             nextItem.style.transition = "transform 0.5s ease"; // 애니메이션 적용
             nextItem.style.transform = `translateY(0px)`; // 다음 라벨을 화면 위로 올리기
-        }, 300); // 0.6초 지연 후, 애니메이션 시작
+        }, 400); // 0.4초 후, 애니메이션 시작
 
         // 3. 0.5초 후 현재 라벨을 맨 뒤로 이동
         setTimeout(() => {
@@ -116,7 +117,7 @@ function naverProject000*startNewsRolling() {
             currentItem.style.transform = "translateY(0)"; // 원래 위치로 되돌리기
             newsBox.appendChild(currentItem); // 라벨을 맨 뒤로 이동
 
-            // 애니메이션 다시 적용
+           // 애니메이션 다시 적용
             setTimeout(() => {
                 currentItem.style.transition = "transform 0.5s ease";
             }, 50); // transition 제거 후 다시 적용
@@ -234,7 +235,51 @@ function naverProject000*onAButton2Click(comp, info, e)
 
 // 8. 왼쪽, 닷 무한 자동(3개)
 function naverProject000*startBannerRolling() {
+	const bannerBox = this.banner_items.element // 배너 박스 컨테이너
+	const bannerItems = Array.from(document.querySelectorAll('[data-class="banner_item"]')); // 배너 아이템 배열
+	const bannerIndicator = this.banner_indicator.element;
+	const indicatorImages = [
+		"Assets/aside/sideBanner4/icon1.jpg",
+        "Assets/aside/sideBanner4/icon2.jpg",
+        "Assets/aside/sideBanner4/icon3.jpg",
+	]; // 인디케이터 이미지 경로 배열
+	
+	const itemWidth = 352; // 배너 하나의 너비
+	let currentIndex = 0; // 현재 배너 인덱스
+	
+	// 배너 롤링 실행
+	setInterval( () => {
+		const currentItem = bannerItems[currentIndex]; // 현재 배너
+        const nextIndex = (currentIndex + 1) % bannerItems.length; // 다음 배너 인덱스
+        const nextItem = bannerItems[nextIndex]; // 다음 배너
+	
+        // 1. 다음 배너를 화면 오른쪽에 배치
+        nextItem.style.transition = "none"; // 초기화
+        nextItem.style.transform = `translateX(${itemWidth}px)`; // 다음 배너를 오른쪽으로 이동
 
+        // 2. 애니메이션 시작
+        setTimeout(() => {
+            currentItem.style.transition = "transform 0.5s ease"; // 애니메이션 설정
+            currentItem.style.transform = `translateX(-${itemWidth}px)`; // 현재 배너를 왼쪽으로 이동
+
+            nextItem.style.transition = "transform 0.5s ease"; // 애니메이션 설정
+            nextItem.style.transform = `translateX(0)`; // 다음 배너를 화면 중앙으로 이동
+			
+			bannerIndicator.style.backgroundImage = `url(${indicatorImages[nextIndex]})`;
+        }, 300); // 0.3초 후, 애니메이션 시작
+
+        // 3. 애니메이션이 끝난 후 현재 배너를 맨 뒤로 이동
+        setTimeout(() => {
+            currentItem.style.transition = "none"; // 애니메이션 제거
+            currentItem.style.transform = "translateX(0)"; // 초기화
+            bannerBox.appendChild(currentItem); // 현재 배너를 맨 뒤로 이동
+        }, 300); // 0.3s 애니메이션 후
+
+		// 4. 인디케이터 이미지 변경
+//         bannerIndicator.style.backgroundImage = `url(${indicatorImages[nextIndex]})`;
+		
+        currentIndex = nextIndex; // 인덱스 업데이트
+    }, 3000); // 3초마다 실행
 }
 
 // 12. up(top)버튼 클릭 시 
