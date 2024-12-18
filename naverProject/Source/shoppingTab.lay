@@ -3,27 +3,27 @@
         <div data-base="AView" data-class="CommerceView_shopping_desc" class="AView-Style" style="width: 248px; height: 375px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;">
             <div data-base="AView" data-class="MallNameLink_group_mall" class="AView-Style content_area" style="width: 248px; height: 88px; position: relative; padding: 9px 11px 4px; border-radius: 4px; background: rgba(245, 248, 251, 0.6); margin-top: 0px;" data-style=" content_area">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">쿠팡</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">쿠팡</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">G마켓</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">G마켓</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">옥션</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">SSG닷컴</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">SSG닷컴</label>
                 </div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">11번가</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">올리브영</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">올리브영</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">하프클럽</label>
                 </div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">GS SHOP</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">GS SHOP</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">CJ온스타일</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">패션플러스</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">패션플러스</label>
                 </div>
             </div>
             <div data-base="AView" data-class="QuickLink_menu_area" class="AView-Style content_area" style="width: 248px; height: 74px; position: relative; margin-top: 12px;     padding: 9px;     border-radius: 4px;     background: rgba(245, 248, 251, .6);" data-style=" content_area">

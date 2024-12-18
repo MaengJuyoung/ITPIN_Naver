@@ -3,13 +3,13 @@
         <div data-base="AView" data-class="CommerceView_shopping_desc" class="AView-Style" style="width: 248px; height: 375px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); left: 0px; top: 0px;">
             <div data-base="AView" data-class="MallNameLink_group_mall" class="AView-Style content_area" style="width: 248px; height: 88px; position: relative; padding: 9px 11px 4px; border-radius: 4px; background: rgba(245, 248, 251, 0.6); margin-top: 0px;" data-style=" content_area">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">쿠팡</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">쿠팡</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">G마켓</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">옥션</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">SSG닷컴</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">SSG닷컴</label>
                 </div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">11번가</label>
@@ -19,7 +19,7 @@
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">하프클럽</label>
                 </div>
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 226px; height: 25px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;     justify-content: space-between;     padding-bottom: 5px;">
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0);">GS SHOP</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(0, 0, 0); font-weight: bold;">GS SHOP</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgba(0, 0, 0, 0.65);">CJ온스타일</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-weight: bold; font-size: 15px;">·</label>
@@ -51,95 +51,77 @@
         </div>
         <div data-base="AView" data-class="HotItem_commerce_product_column" class="AView-Style" style="width: 522px; height: 375px; position: relative; float: right; background-color: rgba(0, 0, 0, 0);">
             <div data-base="AView" data-class="HotItem_five_column_list" class="AView-Style" style="width: 522px; height: 186px; position: relative; background-color: rgba(0, 0, 0, 0); display: flex;">
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 186px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic1.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 186px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic1.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0); left: 0px;">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">유니크~따뜻해!</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">지금만 SALE~</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic2.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic2.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">제이에스티나</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">크리스마스 혜택</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic3.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic3.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">하체 전체 케어</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">괴물 마사지부츠</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic4.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic4.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">1만원대겨울나기</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">발열내의 26% ↓</label>
-                        </div>
-                    </div>
-                </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic5.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative;">엄지원 동안비결</label>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative;">HOT 뮤신젤리!</label>
                         </div>
                     </div>
                 </div>
             </div>
             <div data-base="AView" data-class="HotItem_five_column_list" class="AView-Style" style="width: 522px; height: 186px; position: relative; background-color: rgba(0, 0, 0, 0);">
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 186px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic6.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 186px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic6.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">1만원대겨울나기</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">발열내의 26% ↓</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic7.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic7.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">화잘먹 닥토패드</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">1+1 할인 EVENT</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic8.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic8.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">후끈따뜻 강추템</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">25,420원 팬츠!</label>
                         </div>
                     </div>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic9.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 132.5px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 124.5px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic9.jpg&quot;); background-position: center center; background-size: 100%;" data-background-option="custom" data-style=" content_area"></button>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 124.5px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">최대90% ↓ 특가</label>
                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">BEST신상~가득!</label>
-                        </div>
-                    </div>
-                </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 106px; height: 186px; position: relative; float: left; padding: 0px 0px 14px 8px; background-color: rgba(0, 0, 0, 0); margin-top: 0px;">
-                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 172px; background-color: rgba(0, 0, 0, 0); position: relative;">
-                        <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-color: rgba(193, 193, 193, 0.63); background-image: url(&quot;Assets/section/shopping/pic10.jpg&quot;); background-position: center center; background-size: 100%; margin-top: 0px;" data-background-option="custom" data-style=" content_area"></button>
-                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 98px; height: 46px; position: relative; padding-top: 8px; background-color: rgba(0, 0, 0, 0);">
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">행운을 가져다줄</label>
-                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 98px; height: 19px; position: relative; left: 0px; top: 0px;">18K 행운 클로버</label>
                         </div>
                     </div>
                 </div>

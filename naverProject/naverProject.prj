@@ -668,6 +668,66 @@
                     "name": "shopingMY.png",
                     "relType": 1,
                     "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "open.png",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img1.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img2.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img3.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img4.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img5.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img6.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img7.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img8.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
+                  },
+                  {
+                    "type": 8,
+                    "name": "img9.jpg",
+                    "relType": 1,
+                    "path": "Assets\\section\\shopping\\"
                   }
                 ]
               },
