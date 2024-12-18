@@ -22,8 +22,8 @@ naverProject000.prototype.init = function(context, evtListener)
 	this.media_area_list.element.style.display = 'none';
 	
 	// 9. 피드 초기 상태 설정
-	// feed_more1 클래스를 가진 모든 요소를 숨기기
-	const feedMoreElements = document.querySelectorAll('[data-class="feed_more"]');
+	// feed_more 클래스를 가진 모든 요소를 숨기기
+	const feedMoreElements = document.querySelectorAll('.feed_more');
 	feedMoreElements.forEach(element => {
 		element.style.display = 'none';
 	});
@@ -210,7 +210,7 @@ naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
     console.log(`${labelId} 탭 실행`);
 	
 	// 모든 탭의 라벨을 가져와서 클래스 갱신
-    const allTabLabels = document.querySelectorAll('[data-class="tab-label"]'); // 탭 라벨의 클래스는 'tab-label'로 가정
+    const allTabLabels = document.querySelectorAll('.tab-label'); // 탭 라벨의 클래스는 'tab-label'로 가정
 
 	const clickedLabel = document.getElementById(labelId); // 클릭된 라벨의 요소
     if (clickedLabel) {
@@ -247,7 +247,7 @@ naverProject000.prototype.onRefreshBtnClick = function(comp, info, e)
 // 8. 왼쪽, 닷 무한 자동(3개)
 naverProject000.prototype.startBannerRolling = function() {
 	const bannerBox = this.banner_items.element // 배너 박스 컨테이너
-	const bannerItems = Array.from(document.querySelectorAll('[data-class="banner_item"]')); // 배너 아이템 배열
+	const bannerItems = Array.from(document.querySelectorAll('.banner_item')); // 배너 아이템 배열
 	const bannerIndicator = this.banner_indicator.element;
 	const indicatorImages = [
 		"Assets/aside/sideBanner4/icon1.jpg",

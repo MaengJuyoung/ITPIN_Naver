@@ -79,6 +79,14 @@
             "relType": 1,
             "path": "Template\\",
             "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "search_input.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\Theme\\",
+            "comment": ""
           }
         ]
       },

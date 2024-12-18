@@ -1,7 +1,7 @@
 <div data-base="AView" data-class="shoppingLiveTab" class="AView-Style" style="left: 0px; top: 0px; width: 790px; height: auto; background-color: rgb(255, 255, 255); position: relative; font-family: &quot;맑은 고딕&quot;; margin-left: 1px; margin-top: 1px; margin-right: 1px;" id="shoppingLiveTab--shoppingLiveTab" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;ALabel&quot;,&quot;AButton&quot;]}" data-browser-width="1030" data-browser-height="630">
-    <div data-base="AView" data-class="header_sub_wrap" class="AView-Style" style="width: auto; height: 50px; position: relative; display: flex; margin-top: 0px; margin-bottom: 18px; background-color: rgba(0, 0, 0, 0);">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 50px; position: relative; display: flex; margin-top: 0px; margin-bottom: 18px; background-color: rgba(0, 0, 0, 0);" id="shoppingLiveTab--header_sub_wrap">
         <div data-base="AView" data-class="AView" class="AView-Style" style="height: auto; position: relative; background-color: rgb(245, 247, 248); width: 790px; padding: 15px 20px 14px; border-radius: 4px; box-sizing: border-box; line-height: 21px; left: 0px;">
-            <div data-base="AView" data-class="tablist" class="AView-Style" style="width: auto; height: 21px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); top: 0px; letter-spacing: -1px;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 21px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); top: 0px; letter-spacing: -1px;" id="shoppingLiveTab--tablist">
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(0, 0, 0); font-weight: bold; font-size: 15px;">네쇼라Pick</label>
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; font-size: 15px; margin: 0 5px; color: rgb(150, 150, 150);">·</label>
                 <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15px; color: rgb(115, 115, 115); font-weight: bold;">패션</label>
@@ -21,9 +21,9 @@
             </div>
         </div>
     </div>
-    <div data-base="AView" data-class="CommerceView_commerce_area" class="AView-Style" style="height: 377px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; width: 788px;">
-        <div data-base="AView" data-class="lusDeal_area" class="AView-Style" style="width: 520px; height: 375px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;; letter-spacing: -1px; font-size: 13px;">
-            <div data-base="AView" data-class="lusDeal_area_culumn" class="AView-Style" style="width: 520px; height: 187px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 377px; position: relative; background-color: rgba(0, 0, 0, 0); left: 0px; width: 788px;" id="shoppingLiveTab--CommerceView_commerce_area">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 520px; height: 375px; position: relative; float: left; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;; letter-spacing: -1px; font-size: 13px;" id="shoppingLiveTab--lusDeal_area">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 520px; height: 187px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" id="shoppingLiveTab--lusDeal_area_culumn">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 160px; height: 163px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
                     <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 160px; height: 115px; position: relative; left: 0px; top: 0px; margin-left: 0px; background-image: url(&quot;Assets/section/shopping/img1.jpg&quot;); background-size: contain; background-color: rgba(0, 0, 0, 0);" data-style=" content_area" data-background-option="fit"></button>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 160px; height: 38px; position: relative; left: 0px; top: 0px; margin-top: 8px; background-color: rgba(0, 0, 0, 0);">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div data-base="AView" data-class="lusDeal_area_culumn" class="AView-Style" style="width: 520px; height: 187px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 520px; height: 187px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" id="shoppingLiveTab--lusDeal_area_culumn2">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 160px; height: 163px; position: relative; float: left; background-color: rgba(0, 0, 0, 0);">
                     <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 160px; height: 115px; position: relative; left: 0px; top: 0px; margin-left: 0px; background-image: url(&quot;Assets/section/shopping/img4.jpg&quot;); background-size: contain;" data-style=" content_area" data-background-option="fit"></button>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 160px; height: 38px; position: relative; left: 0px; top: 0px; margin-top: 8px; background-color: rgba(0, 0, 0, 0);">
@@ -76,8 +76,8 @@
                 </div>
             </div>
         </div>
-        <div data-base="AView" data-class="PlusDeal_side_area" class="AView-Style" style="width: 250px; height: 355px; position: relative; float: right; background-color: rgba(0, 0, 0, 0); padding-left: 20px; border-left: 1px solid rgb(235, 235, 235);">
-            <div data-base="AView" data-class="side_list" class="AView-Style" style="width: 229px; height: 355px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;; font-size: 13px;">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 250px; height: 355px; position: relative; float: right; background-color: rgba(0, 0, 0, 0); padding-left: 20px; border-left: 1px solid rgb(235, 235, 235);" id="shoppingLiveTab--PlusDeal_side_area">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 229px; height: 355px; position: relative; background-color: rgba(0, 0, 0, 0); font-family: &quot;맑은 고딕&quot;; font-size: 13px;" id="shoppingLiveTab--side_list">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: 229px; height: 110px; position: relative; margin-bottom: 12px; background-color: rgba(0, 0, 0, 0); display: flex; align-items: center;">
                     <button data-base="AButton" data-class="AButton" class="AButton-Style content_area" style="width: 92px; height: 110px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;Assets/section/shopping/img7.jpg&quot;); background-size: contain; background-position: center center;" data-style=" content_area" data-background-option="fit"></button>
                     <div data-base="AView" data-class="AView" class="AView-Style" style="width: 122px; height: 61px; position: relative; left: 0px; top: 0px; margin-left: 15px; background-color: rgba(0, 0, 0, 0);">
@@ -102,7 +102,7 @@
             </div>
         </div>
     </div>
-    <div data-base="AView" data-class="Pagination_content_paging" class="AView-Style" style="width: 790px; height: auto; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0); border-top: 1px solid rgb(235, 235, 235); padding: 10px 0px 11px; line-height: 34px; text-align: center;">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: auto; left: 0px; top: 0px; position: relative; background-color: rgba(0, 0, 0, 0); border-top: 1px solid rgb(235, 235, 235); padding: 10px 0px 11px; line-height: 34px; text-align: center;" id="shoppingLiveTab--Pagination_content_paging">
         <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; font-weight: bold; font-size: 15px; border-width: 1px; border-style: solid; border-color: rgb(168, 168, 168); border-radius: 50%; text-align: center; display: inline-block; top: 0px; left: 0px;">＜</button>
         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 185px; height: auto; position: relative; display: inline-block; padding: 0px 16px; background-color: rgba(0, 0, 0, 0); font-size: 13px;">
             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; color: rgb(152, 88, 245); left: 0px; top: 0px;">쇼핑라이브</label>

@@ -1,0 +1,6 @@
+{
+  "styleName": "search_input",
+  "items": {
+    "edit_here": ".search_input{}\n.shortcut_item{}\n.tab-label{}\n.feed_more{}\n.banner_item{}\n.edit_here\n{\n\t/* TODO:edit here */\n\n}\n"
+  }
+}

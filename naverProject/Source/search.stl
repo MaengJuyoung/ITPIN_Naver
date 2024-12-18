@@ -1,0 +1,7 @@
+{
+  "styleName": "search",
+  "items": {
+    "search_input": ".search_input{}\n.search_input\n{\n\t/* TODO:edit here */\n\n}\n",
+    "edit_here": ".search_input{}\n"
+  }
+}
