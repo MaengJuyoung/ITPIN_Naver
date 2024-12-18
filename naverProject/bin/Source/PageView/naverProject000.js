@@ -6,9 +6,6 @@ Do not call Function in Constructor.
 function naverProject000()
 {
 	AView.call(this);
-
-	//TODO:edit here
-
 }
 afc.extendsClass(naverProject000, AView);
 
@@ -17,10 +14,8 @@ naverProject000.prototype.init = function(context, evtListener)
 {
 	AView.prototype.init.call(this, context, evtListener);
 
-	
 	// 1. 페이지 로드 시 검색창에 포커스를 설정
     this.search_input.setFocus();
-	this.search_input.setPlaceholder("검색어를 입력해 주세요.");
 	
 	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
 	this.shortcut_group.element.style.display = 'none';
@@ -43,7 +38,6 @@ naverProject000.prototype.onInitDone = function()
 {
 	AView.prototype.onInitDone.call(this);
 
-	//TODO:edit here
 	this.tabview.addTab('쇼핑', 'Source/SubView/shoppingTab.lay', 'shoppingTab');
 	this.tabview.addTab('맨즈', 'Source/SubView/mansTab.lay', 'mansTab');
 	this.tabview.addTab('원쁠딜', 'Source/SubView/onePlusTab.lay', 'onePlusTab');
@@ -83,15 +77,11 @@ naverProject000.prototype.onInitDone = function()
 naverProject000.prototype.onActiveDone = function(isFirst)
 {
 	AView.prototype.onActiveDone.call(this, isFirst);
-
-	//TODO:edit here
-
 };
 
+// 2. 더보기 버튼 클릭 시 
 // 상태를 저장할 변수 (창이 열렸는지 여부 확인)
 let isMoreOptionsOpen = true;
-
-// 2. 더보기 버튼 클릭 시 
 naverProject000.prototype.onServiceMoreBtnClick = function(comp, info, e)
 {
 	console.log("isMoreOptionsOpen : "+isMoreOptionsOpen);
@@ -187,7 +177,6 @@ naverProject000.prototype.onBtnClick = function(comp, info, e) {
     }
 }
 
-
 // 6. tabview 사용
 naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
     // 클릭된 라벨의 아이디를 가져옴
@@ -241,8 +230,6 @@ naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
 // 7. 시간 새로고침 버튼 클릭 시 
 naverProject000.prototype.onRefreshBtnClick = function(comp, info, e)
 {
-
-	//TODO:edit here
 	// 현재 시간 가져오기
     const now = new Date();
 
@@ -255,7 +242,6 @@ naverProject000.prototype.onRefreshBtnClick = function(comp, info, e)
     this.timeRefresh.setText(formattedDateTime);
 
     console.log(`현재 시간: ${formattedDateTime}`);
-
 };
 
 // 8. 왼쪽, 닷 무한 자동(3개)
@@ -289,7 +275,8 @@ naverProject000.prototype.startBannerRolling = function() {
 
             nextItem.style.transition = "transform 0.5s ease"; // 애니메이션 설정
             nextItem.style.transform = `translateX(0)`; // 다음 배너를 화면 중앙으로 이동
-			
+					
+			// 2-1. 인디케이터 이미지 변경
 			bannerIndicator.style.backgroundImage = `url(${indicatorImages[nextIndex]})`;
         }, 300); // 0.3초 후, 애니메이션 시작
 
@@ -300,8 +287,6 @@ naverProject000.prototype.startBannerRolling = function() {
             bannerBox.appendChild(currentItem); // 현재 배너를 맨 뒤로 이동
         }, 300); // 0.3s 애니메이션 후
 
-		// 4. 인디케이터 이미지 변경
-//         bannerIndicator.style.backgroundImage = `url(${indicatorImages[nextIndex]})`;
 		
         currentIndex = nextIndex; // 인덱스 업데이트
     }, 3000); // 3초마다 실행
@@ -338,19 +323,27 @@ naverProject000.prototype.onScroll = function() {
     if (scrollPosition >= 200) {
         searchArea.style.display = 'block';  // 검색창 보이기
 		this.search_input_top.setFocus();
-		this.search_input_top.setPlaceholder("검색어를 입력해 주세요.");
     } else {
         searchArea.style.display = 'none';  // 검색창 숨기기
 		this.search_input.setFocus();
-		this.search_input.setPlaceholder("검색어를 입력해 주세요.");
 	}
+};
+
+naverProject000.prototype.Search_input_Focus = function(comp, info, e)
+{
+	this.search_input_top.setPlaceholder("검색어를 입력해 주세요.");
+	this.search_input.setPlaceholder("검색어를 입력해 주세요.");
+};
+
+naverProject000.prototype.Search_input_Blur = function(comp, info, e)
+{
+	this.search_input_top.setPlaceholder("");
+	this.search_input.setPlaceholder("");
 };
 
 // 12. up(top)버튼 클릭 시 
 naverProject000.prototype.onTopBtnClick = function(comp, info, e)
 {
-
-	//TODO:edit here
 	// 스크롤을 맨 위로 이동
     window.scrollTo({
         top: 0, // 페이지의 맨 위로 이동
@@ -360,4 +353,3 @@ naverProject000.prototype.onTopBtnClick = function(comp, info, e)
     console.log("맨 위로 이동");
 
 };
-
