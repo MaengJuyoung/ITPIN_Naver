@@ -26,14 +26,15 @@ naverProject000.prototype.init = function(context, evtListener)
 	this.shortcut_group.element.style.display = 'none';
 	this.media_area_list.element.style.display = 'none';
 	
-	// 피드 초기 상태 설정
+	// 9. 피드 초기 상태 설정
 	// feed_more1 클래스를 가진 모든 요소를 숨기기
 	const feedMoreElements = document.querySelectorAll('[data-class="feed_more"]');
 	feedMoreElements.forEach(element => {
 		element.style.display = 'none';
 	});
 
-
+	// 11. 스크롤 - 검색창 초기 상태 설정
+	this.search_area_top.element.style.display = 'none';
 
 	
 };
@@ -53,14 +54,30 @@ naverProject000.prototype.onInitDone = function()
 	
 	
 	// 페이지 로드 시에도 현재 시간 설정
-    this.onRefreshBtnClick();  // onAButton2Click 함수 호출하여 시간을 설정
+    this.onRefreshBtnClick();  // onRefreshBtnClick 함수 호출하여 시간을 설정
 	
 	// 3. 뉴스 롤링 시작(5개)
     this.startNewsRolling();
 	
 	// 8. 배너 롤링 시작(3개)
 	this.startBannerRolling();
-
+	
+	// 11. 스크롤 이벤트 추가
+	/* 1. 오류 상황
+	스크롤 이벤트 리스너는 window 객체에 등록되기 때문에 this가 window 객체를 가리킨다. 
+	따라서  this.search_area_top.element에서 this가 제대로 참조되지 않아서 오류가 발생
+	window.addEventListener('scroll', this.onScroll);
+	*/
+	/* 해결방법 1
+	this를 다른 변수에 저장 - this를 미리 다른 변수에 저장해두고, 그 변수로 this를 참조하는 방법
+	self 변수에 this를 저장하고, 이벤트 핸들러에서 self를 사용하여 클래스 인스턴스를 참조하도록 한다
+	const self = this;
+	window.addEventListener('scroll', function() {
+		self.onScroll();  // self는 this를 올바르게 참조함
+	});*/
+	window.addEventListener('scroll', (event) => {
+		this.onScroll(event);  // 화살표 함수를 사용하면 this가 클래스 인스턴스를 가리킴
+	});
 };
 
 naverProject000.prototype.onActiveDone = function(isFirst)
@@ -310,6 +327,23 @@ naverProject000.prototype.onRecommendMoreBtnClick = function(comp, info, e)
             this[`feed_box${i}`].element.style.display = 'block'; // 해당 feed_box 표시
         }
     }
+};
+
+// 11. 스크롤
+naverProject000.prototype.onScroll = function() {
+    const scrollPosition = window.scrollY;  // 현재 스크롤 위치
+	const searchArea = this.search_area_top.element;
+    
+	// 스크롤 위치가 200px 이상일 때 검색창을 보이게 설정
+    if (scrollPosition >= 200) {
+        searchArea.style.display = 'block';  // 검색창 보이기
+		this.search_input_top.setFocus();
+		this.search_input_top.setPlaceholder("검색어를 입력해 주세요.");
+    } else {
+        searchArea.style.display = 'none';  // 검색창 숨기기
+		this.search_input.setFocus();
+		this.search_input.setPlaceholder("검색어를 입력해 주세요.");
+	}
 };
 
 // 12. up(top)버튼 클릭 시 
