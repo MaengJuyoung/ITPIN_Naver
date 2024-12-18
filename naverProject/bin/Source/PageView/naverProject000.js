@@ -25,6 +25,14 @@ naverProject000.prototype.init = function(context, evtListener)
 	// 2. 더보기 버튼 초기 상태 설정: shortcut_group은 숨기기
 	this.shortcut_group.element.style.display = 'none';
 	this.media_area_list.element.style.display = 'none';
+	
+	// 피드 초기 상태 설정
+	// feed_more1 클래스를 가진 모든 요소를 숨기기
+	const feedMoreElements = document.querySelectorAll('[data-class="feed_more"]');
+	feedMoreElements.forEach(element => {
+		element.style.display = 'none';
+	});
+
 
 
 	
@@ -45,7 +53,7 @@ naverProject000.prototype.onInitDone = function()
 	
 	
 	// 페이지 로드 시에도 현재 시간 설정
-    this.onAButton2Click();  // onAButton2Click 함수 호출하여 시간을 설정
+    this.onRefreshBtnClick();  // onAButton2Click 함수 호출하여 시간을 설정
 	
 	// 3. 뉴스 롤링 시작(5개)
     this.startNewsRolling();
@@ -67,7 +75,7 @@ naverProject000.prototype.onActiveDone = function(isFirst)
 let isMoreOptionsOpen = true;
 
 // 2. 더보기 버튼 클릭 시 
-naverProject000.prototype.onMoreButtonClick = function(comp, info, e)
+naverProject000.prototype.onServiceMoreBtnClick = function(comp, info, e)
 {
 	console.log("isMoreOptionsOpen : "+isMoreOptionsOpen);
 	const moreButton = e.target;
@@ -214,7 +222,7 @@ naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
 };
 
 // 7. 시간 새로고침 버튼 클릭 시 
-naverProject000.prototype.onAButton2Click = function(comp, info, e)
+naverProject000.prototype.onRefreshBtnClick = function(comp, info, e)
 {
 
 	//TODO:edit here
@@ -282,8 +290,30 @@ naverProject000.prototype.startBannerRolling = function() {
     }, 3000); // 3초마다 실행
 }
 
+// 9. 더보기
+let buttonClickCount = 0;	// 버튼 클릭 횟수 추적
+naverProject000.prototype.onRecommendMoreBtnClick = function(comp, info, e)
+{
+	const myButton = this.content_more_area.element;
+	buttonClickCount++; // 클릭 횟수 증가
+	
+    if (buttonClickCount === 2) { // 클릭 횟수가 2번일 때
+        myButton.style.display = 'none'; // 버튼 숨기기
+    }
+	
+	let startIndex = 4 + (buttonClickCount - 1) * 2; // 4부터 시작, 두 번째 클릭 시 6, 세 번째 클릭 시 8로 변경
+    let endIndex = startIndex + 1; // 두 항목씩 표시
+
+    // feed_box4~7을 클릭 횟수에 맞게 표시
+    for (let i = startIndex; i <= endIndex; i++) {
+        if (this[`feed_box${i}`]) {
+            this[`feed_box${i}`].element.style.display = 'block'; // 해당 feed_box 표시
+        }
+    }
+};
+
 // 12. up(top)버튼 클릭 시 
-naverProject000.prototype.onAButton1Click = function(comp, info, e)
+naverProject000.prototype.onTopBtnClick = function(comp, info, e)
 {
 
 	//TODO:edit here
