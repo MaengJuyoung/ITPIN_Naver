@@ -39,9 +39,9 @@ listView.prototype.onActiveDone = function(isFirst)
 
 listView.prototype.setData = function(data) 
 {     
-    //this.data = data; 
+    this.data = data; 
 
 	//console.log("this.data.content = ",this.data.content);
-    this.content.setText(data.content);
+    this.content.setText(this.data.content);
 	
 };  
