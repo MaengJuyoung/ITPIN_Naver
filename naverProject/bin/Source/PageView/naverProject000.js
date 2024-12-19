@@ -56,7 +56,37 @@ naverProject000.prototype.onInitDone = function()
 	// 8. 배너 롤링 시작(3개)
 	this.startBannerRolling();
 	
+	// 10. ListView - 리스트뷰에 데이터만큼의 아이템뷰를 추가한다.    
+	
+	 let listData = [
+		{
+			content : '쿠쿠홈시스, 매출 늘었지만 렌탈 줄었다'
+		},
+		{
+			content : 'SK바이오팜의 변신...7분기 적자 → 4분기 흑자'
+		},
+		{
+			content : 'SGC이앤씨·LT삼보, 해외 수주 급증 눈에 띄네'
+		},
+		{
+			content : 'AI에 1000억 쓴 크래프톤, 게임 적용 시동'
+		},
+		{
+			content : "이문화 삼성화재 대표, '초격차' 1위 지킨다"
+		},
+		{
+			content : '5년간 5번 대표 교체...호텔롯데, 이번엔 변화올까'
+		}
+	];
+	
+    this.listView.addItem('Source/SubView/listView.lay', listData); 
+	//this.listView.setData(this.listData); 
+	
+	
 	// 11. 스크롤 이벤트 추가
+	window.addEventListener('scroll', (event) => {
+		this.onScroll(event);  // 화살표 함수를 사용하면 this가 클래스 인스턴스를 가리킴
+	});
 	/* 1. 오류 상황
 	스크롤 이벤트 리스너는 window 객체에 등록되기 때문에 this가 window 객체를 가리킨다. 
 	따라서  this.search_area_top.element에서 this가 제대로 참조되지 않아서 오류가 발생
@@ -69,9 +99,7 @@ naverProject000.prototype.onInitDone = function()
 	window.addEventListener('scroll', function() {
 		self.onScroll();  // self는 this를 올바르게 참조함
 	});*/
-	window.addEventListener('scroll', (event) => {
-		this.onScroll(event);  // 화살표 함수를 사용하면 this가 클래스 인스턴스를 가리킴
-	});
+	
 };
 
 naverProject000.prototype.onActiveDone = function(isFirst)
@@ -146,8 +174,8 @@ naverProject000.prototype.startNewsRolling = function() {
 // 5. 화면변화(표현방법 자유) - 리스트/목록 버튼
 naverProject000.prototype.onBtnClick = function(comp, info, e) {
     const button = e.target;
-    console.log("e.target : " + e.target);    
-    console.log("e.target.tagName : " + e.target.tagName);
+    //console.log("e.target : " + e.target);    
+    //console.log("e.target.tagName : " + e.target.tagName);
 
     // 버튼 클릭 시, 버튼이 IMG가 아니면 내부에 있는 IMG를 찾음
     let imgElement = button.tagName === "IMG" ? button : button.querySelector("img");
@@ -181,7 +209,7 @@ naverProject000.prototype.onBtnClick = function(comp, info, e) {
 naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
     // 클릭된 라벨의 아이디를 가져옴
     const labelId = e.target.id;
-	console.log("labelId : "+labelId);
+	//console.log("labelId : "+labelId);
 	
     // tabId를 정의하고, if-else로 선택
     let tabId = '';
@@ -207,7 +235,7 @@ naverProject000.prototype.onALabelTabClick = function(comp, info, e) {
 
     // 해당 tabId에 맞는 탭을 선택
     this.tabview.selectTabById(tabId);
-    console.log(`${labelId} 탭 실행`);
+    //console.log(`${labelId} 탭 실행`);
 	
 	// 모든 탭의 라벨을 가져와서 클래스 갱신
     const allTabLabels = document.querySelectorAll('.tab-label'); // 탭 라벨의 클래스는 'tab-label'로 가정
@@ -328,13 +356,11 @@ naverProject000.prototype.onScroll = function() {
 		this.search_input.setFocus();
 	}
 };
-
 naverProject000.prototype.Search_input_Focus = function(comp, info, e)
 {
 	this.search_input_top.setPlaceholder("검색어를 입력해 주세요.");
 	this.search_input.setPlaceholder("검색어를 입력해 주세요.");
 };
-
 naverProject000.prototype.Search_input_Blur = function(comp, info, e)
 {
 	this.search_input_top.setPlaceholder("");
