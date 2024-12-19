@@ -426,7 +426,10 @@
                                             <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-family: &quot;맑은 고딕&quot;; font-size: 13px;">KB손해보험, CSM과 수익성 모두 잡았다</label>
                                         </div>
                                     </div>
-                                    <div data-base="AListView" data-class="AListView" class="AListView-Style" style="width: 399px; height: 185px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);" data-direction="vertical" data-selectable="true" id="naverProject000--listView" data-iteminfo-291898="0,Source/SubView/listView.lay.lay,291898">
+                                    <div data-base="AListView" data-class="AListView" class="AListView-Style" data-selectable="true" style="width: 399px; height: 185px; position: relative; background-color: rgba(0, 0, 0, 0);" id="naverProject000--listView">
+                                        <div class="listview-row" style="height: 30.9px;"></div>
+                                        <div class="listview-row AListView-select" style="height: 30.9px;"></div>
+                                        <div class="listview-row" style="height: 30.9px;"></div>
                                         <div class="listview-row" style="height: 30.9px;"></div>
                                     </div>
                                 </div>
